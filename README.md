@@ -20,13 +20,13 @@ pnpm dev
 발표 문서는 `src/content/docs/` 아래에 둡니다.
 
 ```text
-src/content/docs/gen-4/week-01-2026-06-11/kim-yowook/index.md
+src/content/docs/gen-4/week-02-2026-06-11/kim-yowook/index.md
 ```
 
 이미지는 발표자 문서와 가까운 `images/` 폴더에 둡니다.
 
 ```text
-src/content/docs/gen-4/week-01-2026-06-11/kim-yowook/images/chart.png
+src/content/docs/gen-4/week-02-2026-06-11/kim-yowook/images/chart.png
 ```
 
 자세한 작성 방법은 [CONTRIBUTING.md](./CONTRIBUTING.md)를 참고하세요.

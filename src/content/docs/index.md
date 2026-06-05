@@ -27,6 +27,6 @@ hero:
 ## 빠른 작성 흐름
 
 1. `templates/weekly-share.md`를 복사합니다.
-2. `src/content/docs/gen-4/week-01-2026-06-11/{name}/index.md` 형태로 저장합니다.
+2. `src/content/docs/gen-4/week-02-2026-06-11/{name}/index.md` 형태로 저장합니다.
 3. 이미지는 같은 폴더 아래 `images/`에 넣고 `![설명](./images/file.png)`로 첨부합니다.
 4. 로컬에서 `pnpm dev`로 확인한 뒤 커밋합니다.

@@ -1,10 +1,10 @@
 ---
-title: 김요욱 - 금리와 시장 기대 읽기
-description: 2026-06-11 경제잡지 스터디 4기 1주차 김요욱 공유 문서입니다.
+title: 예시 문서 - 금리와 시장 기대 읽기
+description: 경제잡지 스터디 발표 문서 작성 예시입니다.
 author: 김요욱
 date: 2026-06-11
 generation: 4
-week: 1
+week: 2
 tags: [금리, 중앙은행, 시장기대]
 keywords: [기준금리, 장기금리, 수익률곡선, 인플레이션, 경기둔화]
 source:
@@ -24,14 +24,8 @@ related:
   topics: [통화정책, 채권시장, 경기전망]
   pages: []
 sidebar:
-  label: 김요욱
-  order: 1
-prev:
-  link: /gen-4/week-01-2026-06-11/
-  label: 1주차 발표 목록
-next:
-  link: /gen-4/week-01-2026-06-11/jung-nahyun/
-  label: 정나현 발표
+  label: 예시 문서
+  order: 2
 ---
 
 ## 한 줄 요약

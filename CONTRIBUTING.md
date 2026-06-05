@@ -4,7 +4,7 @@
 
 1. `templates/weekly-share.md`를 복사합니다.
 2. 기수와 주차에 맞는 폴더에 `index.md`로 저장합니다.
-   - 예: `src/content/docs/gen-4/week-01-2026-06-11/kim-yowook/index.md`
+   - 예: `src/content/docs/gen-4/week-02-2026-06-11/kim-yowook/index.md`
 3. 이미지는 같은 폴더의 `images/`에 저장합니다.
 4. `pnpm dev`로 화면을 확인합니다.
 5. 변경사항을 커밋하고 푸시합니다.

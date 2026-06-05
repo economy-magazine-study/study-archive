@@ -4,7 +4,7 @@ description: YYYY-MM-DD 경제잡지 스터디 N기 N주차 공유 문서입니�
 author: 이름
 date: YYYY-MM-DD
 generation: 4
-week: 1
+week: 2
 tags: []
 keywords: []
 source:

@@ -33,12 +33,10 @@ export default defineConfig({
           items: [
             { label: '4기 홈', slug: 'gen-4' },
             {
-              label: '1주차 (2026-06-11)',
+              label: '2주차 (2026-06-11)',
               collapsed: false,
               items: [
-                { label: '1주차 개요', slug: 'gen-4/week-01-2026-06-11' },
-                { label: '김요욱', slug: 'gen-4/week-01-2026-06-11/kim-yowook' },
-                { label: '정나현', slug: 'gen-4/week-01-2026-06-11/jung-nahyun' },
+                { label: '2주차 개요', slug: 'gen-4/week-02-2026-06-11' },
               ],
             },
           ],

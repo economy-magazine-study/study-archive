@@ -41,7 +41,7 @@ sidebar:
 - 발표 문서 경로는 아래 규칙을 따른다.
   `src/content/docs/gen-{기수}/week-{2자리 주차}-{YYYY-MM-DD}/{발표자 영문 슬러그}/index.md`
 - 예시:
-  `src/content/docs/gen-4/week-01-2026-06-11/kim-yowook/index.md`
+  `src/content/docs/gen-4/week-02-2026-06-11/kim-yowook/index.md`
 - 이미지가 있으면 아래 폴더에 둔다.
   `src/content/docs/gen-{기수}/week-{2자리 주차}-{YYYY-MM-DD}/{발표자 영문 슬러그}/images/`
 - 본문에서 이미지는 `![이미지 설명](./images/파일명)` 형식으로 참조한다.
@@ -113,13 +113,13 @@ Markdown 문서 형식:
 발표 문서는 아래 규칙으로 저장합니다.
 
 ```text
-src/content/docs/gen-4/week-01-2026-06-11/kim-yowook/index.md
+src/content/docs/gen-4/week-02-2026-06-11/kim-yowook/index.md
 ```
 
 이미지는 발표자 폴더 안의 `images/`에 넣습니다.
 
 ```text
-src/content/docs/gen-4/week-01-2026-06-11/kim-yowook/images/chart.png
+src/content/docs/gen-4/week-02-2026-06-11/kim-yowook/images/chart.png
 ```
 
 ## frontmatter
@@ -133,7 +133,7 @@ description: 2026-06-11 경제잡지 스터디 공유 문서입니다.
 author: 김요욱
 date: 2026-06-11
 generation: 4
-week: 1
+week: 2
 tags: [금리, 물가]
 keywords: [기준금리, 인플레이션, 고용지표]
 source:
