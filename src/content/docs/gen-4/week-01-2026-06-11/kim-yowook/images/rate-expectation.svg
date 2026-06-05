@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" role="img" aria-labelledby="title desc">
+  <title id="title">금리와 시장 기대 예시 차트</title>
+  <desc id="desc">정책금리, 시장 기대, 경기 신호의 관계를 단순화한 예시 차트</desc>
+  <rect width="960" height="520" fill="#f8fafc"/>
+  <rect x="72" y="54" width="816" height="392" rx="14" fill="#ffffff" stroke="#d8dee9"/>
+  <text x="92" y="96" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#1f2937">금리 변화는 기대 변화의 흔적</text>
+  <text x="92" y="128" font-family="Arial, sans-serif" font-size="16" fill="#607086">숫자 자체보다 어떤 기대가 움직였는지 확인하기</text>
+  <line x1="132" y1="376" x2="816" y2="376" stroke="#94a3b8" stroke-width="2"/>
+  <line x1="132" y1="164" x2="132" y2="376" stroke="#94a3b8" stroke-width="2"/>
+  <path d="M150 336 C 255 318, 316 302, 410 258 S 598 188, 792 176" fill="none" stroke="#2563eb" stroke-width="5"/>
+  <path d="M150 342 C 262 352, 340 348, 426 322 S 620 276, 792 306" fill="none" stroke="#f97316" stroke-width="5"/>
+  <circle cx="410" cy="258" r="8" fill="#2563eb"/>
+  <circle cx="426" cy="322" r="8" fill="#f97316"/>
+  <text x="604" y="204" font-family="Arial, sans-serif" font-size="18" fill="#2563eb" font-weight="700">정책금리 기대</text>
+  <text x="604" y="332" font-family="Arial, sans-serif" font-size="18" fill="#f97316" font-weight="700">경기 둔화 신호</text>
+  <text x="132" y="414" font-family="Arial, sans-serif" font-size="15" fill="#64748b">현재</text>
+  <text x="748" y="414" font-family="Arial, sans-serif" font-size="15" fill="#64748b">미래 기대</text>
+</svg>

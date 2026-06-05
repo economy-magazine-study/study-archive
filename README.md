@@ -1,49 +1,32 @@
-# Starlight Starter Kit: Basics
+# 경제잡지 스터디 아카이브
 
-[![Built with Starlight](https://astro.badg.es/v2/built-with-starlight/tiny.svg)](https://starlight.astro.build)
+경제잡지 스터디에서 매주 공부하고 공유한 내용을 기수별, 주차별, 발표자별로 모아두는 정적 웹 아카이브입니다.
 
-```
-pnpm create astro@latest -- --template starlight
-```
+## 기술 스택
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+- [Astro](https://astro.build/)
+- [Starlight](https://starlight.astro.build/)
+- GitHub Pages
 
-## 🚀 Project Structure
+## 로컬 실행
 
-Inside of your Astro + Starlight project, you'll see the following folders and files:
-
-```
-.
-├── public/
-├── src/
-│   ├── assets/
-│   ├── content/
-│   │   └── docs/
-│   └── content.config.ts
-├── astro.config.mjs
-├── package.json
-└── tsconfig.json
+```bash
+pnpm install
+pnpm dev
 ```
 
-Starlight looks for `.md` or `.mdx` files in the `src/content/docs/` directory. Each file is exposed as a route based on its file name.
+## 문서 추가
 
-Images can be added to `src/assets/` and embedded in Markdown with a relative link.
+발표 문서는 `src/content/docs/` 아래에 둡니다.
 
-Static assets, like favicons, can be placed in the `public/` directory.
+```text
+src/content/docs/gen-4/week-01-2026-06-11/kim-yowook/index.md
+```
 
-## 🧞 Commands
+이미지는 발표자 문서와 가까운 `images/` 폴더에 둡니다.
 
-All commands are run from the root of the project, from a terminal:
+```text
+src/content/docs/gen-4/week-01-2026-06-11/kim-yowook/images/chart.png
+```
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `pnpm install`             | Installs dependencies                            |
-| `pnpm dev`             | Starts local dev server at `localhost:4321`      |
-| `pnpm build`           | Build your production site to `./dist/`          |
-| `pnpm preview`         | Preview your build locally, before deploying     |
-| `pnpm astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `pnpm astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Check out [Starlight’s docs](https://starlight.astro.build/), read [the Astro documentation](https://docs.astro.build), or jump into the [Astro Discord server](https://astro.build/chat).
+자세한 작성 방법은 [CONTRIBUTING.md](./CONTRIBUTING.md)를 참고하세요.
