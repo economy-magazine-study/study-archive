@@ -27,12 +27,12 @@ export default defineConfig({
       tableOfContents: { minHeadingLevel: 2, maxHeadingLevel: 3 },
       sidebar: [
         { label: '홈', slug: 'index' },
+        { label: '스터디장 공간', slug: 'study-leader' },
         {
           label: '4기',
           collapsed: false,
           items: [
             { label: '4기 홈', slug: 'gen-4' },
-            { label: '스터디장 공간', slug: 'gen-4/study-leader' },
             {
               label: '2주차 (2026-06-11)',
               collapsed: false,
