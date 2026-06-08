@@ -38,6 +38,7 @@ export default defineConfig({
               items: [
                 { label: '데일리 뉴스 홈', slug: 'study-leader/daily-news' },
                 { label: '20260608', slug: 'study-leader/daily-news/20260608' },
+                { label: '20260609', slug: 'study-leader/daily-news/20260609' },
               ],
             },
             { label: '경제잡지', slug: 'study-leader/economy-magazine' },
