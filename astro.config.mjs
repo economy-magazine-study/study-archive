@@ -54,7 +54,15 @@ export default defineConfig({
               collapsed: false,
               items: [
                 { label: '2주차 개요', slug: 'gen-4/week-02-2026-06-11' },
-                { label: '윤혜상', slug: 'gen-4/week-02-2026-06-11/yun-hyesang' },
+                {
+                  label: '윤혜상',
+                  collapsed: false,
+                  items: [
+                    { label: '발표자 개요', slug: 'gen-4/week-02-2026-06-11/yun-hyesang' },
+                    { label: '테스트 공정', slug: 'gen-4/week-02-2026-06-11/yun-hyesang/semiconductor-test' },
+                    { label: '패키징 공정', slug: 'gen-4/week-02-2026-06-11/yun-hyesang/semiconductor-packaging' },
+                  ],
+                },
               ],
             },
           ],
