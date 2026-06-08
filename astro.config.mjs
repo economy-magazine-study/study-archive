@@ -27,7 +27,23 @@ export default defineConfig({
       tableOfContents: { minHeadingLevel: 2, maxHeadingLevel: 3 },
       sidebar: [
         { label: '홈', slug: 'index' },
-        { label: '스터디장 공간', slug: 'study-leader' },
+        {
+          label: '스터디장',
+          collapsed: false,
+          items: [
+            { label: '스터디장 공간', slug: 'study-leader' },
+            {
+              label: '데일리 뉴스',
+              collapsed: false,
+              items: [
+                { label: '데일리 뉴스 홈', slug: 'study-leader/daily-news' },
+                { label: '20260608', slug: 'study-leader/daily-news/20260608' },
+              ],
+            },
+            { label: '경제잡지', slug: 'study-leader/economy-magazine' },
+            { label: '거시경제', slug: 'study-leader/macro-economy' },
+          ],
+        },
         {
           label: '4기',
           collapsed: false,
