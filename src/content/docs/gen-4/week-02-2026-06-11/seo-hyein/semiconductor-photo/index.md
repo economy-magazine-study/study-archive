@@ -45,7 +45,7 @@ entities:
   indicators: []
 related:
   topics: [반도체 전공정, EUV, HBM, AI 반도체, 소재 국산화]
-  pages: []
+  pages: [gen-4/week-02-2026-06-11/seo-hyein/semiconductor-etching]
 sidebar:
   label: 포토공정
   order: 1

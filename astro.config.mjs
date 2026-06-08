@@ -67,6 +67,7 @@ export default defineConfig({
                   collapsed: false,
                   items: [
                     { label: '포토공정', slug: 'gen-4/week-02-2026-06-11/seo-hyein/semiconductor-photo' },
+                    { label: '식각공정', slug: 'gen-4/week-02-2026-06-11/seo-hyein/semiconductor-etching' },
                   ],
                 },
               ],
