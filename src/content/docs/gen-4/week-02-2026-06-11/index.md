@@ -10,7 +10,7 @@ sidebar:
 
 | 순서 | 발표자 | 주제 | 문서 |
 | --- | --- | --- | --- |
-| 8-9 | 윤혜상 | 반도체 후공정 — 테스트(수율) · 패키징(K-소부장) | [발표자 개요](./yun-hyesang/) |
+| 8-9 | 윤혜상 | 반도체 후공정 — 테스트(수율) · 패키징(K-소부장) | [테스트](./yun-hyesang/semiconductor-test/) · [패키징](./yun-hyesang/semiconductor-packaging/) |
 
 ## 진행 메모
 
