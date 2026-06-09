@@ -55,6 +55,7 @@ export default defineConfig({
               collapsed: false,
               items: [
                 { label: '2주차 개요', slug: 'gen-4/week-02-2026-06-11' },
+                { label: '김요욱', slug: 'gen-4/week-02-2026-06-11/kim-yowook' },
                 {
                   label: '윤혜상',
                   collapsed: false,

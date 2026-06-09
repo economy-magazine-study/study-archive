@@ -10,6 +10,7 @@ sidebar:
 
 | 순서 | 발표자 | 주제 | 문서 |
 | --- | --- | --- | --- |
+| 1 | 김요욱 | 반도체 호황과 소부장 생태계 | [문서 보기](./kim-yowook/) |
 | 8-9 | 윤혜상 | 반도체 후공정 — 테스트(수율) · 패키징(K-소부장) | [테스트](./yun-hyesang/semiconductor-test/) · [패키징](./yun-hyesang/semiconductor-packaging/) |
 | 10 | 서혜인 | 반도체 전공정 — 포토공정 · 식각공정 | [포토공정](./seo-hyein/semiconductor-photo/) · [식각공정](./seo-hyein/semiconductor-etching/) |
 
