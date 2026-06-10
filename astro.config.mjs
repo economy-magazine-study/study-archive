@@ -79,6 +79,14 @@ export default defineConfig({
           items: [
             { label: '4기 홈', slug: 'gen-4' },
             {
+              label: '1주차 (2026-06-11)',
+              collapsed: false,
+              items: [
+                { label: '1주차 개요', slug: 'gen-4/week-01-2026-06-11' },
+                { label: '강유리', slug: 'gen-4/week-01-2026-06-11/yuri-kang' },
+              ],
+            },
+            {
               label: '2주차 (2026-06-11)',
               collapsed: false,
               items: [
