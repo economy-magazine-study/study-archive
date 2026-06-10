@@ -13,6 +13,7 @@ export default defineConfig({
       defaultLocale: 'ko',
       locales: { root: { label: '한국어', lang: 'ko' } },
       favicon: '/study-archive/favicon.svg',
+      customCss: ['./src/styles/magazine-article.css'],
       social: [
         {
           icon: 'github',
@@ -41,7 +42,33 @@ export default defineConfig({
                 { label: '20260609', slug: 'study-leader/daily-news/20260609' },
               ],
             },
-            { label: '경제잡지', slug: 'study-leader/economy-magazine' },
+            {
+              label: '경제잡지',
+              collapsed: false,
+              items: [
+                { label: '경제잡지 홈', slug: 'study-leader/economy-magazine' },
+                {
+                  label: '260611 반도체/전력',
+                  collapsed: false,
+                  items: [
+                    { label: '개요', slug: 'study-leader/economy-magazine/260611' },
+                    { label: '[한경] 소부장 현실', slug: 'study-leader/economy-magazine/260611/semi-sobu' },
+                    { label: '[한경] SK실트론 몸값', slug: 'study-leader/economy-magazine/260611/semi-siltron' },
+                    { label: '[한경] 산화공정', slug: 'study-leader/economy-magazine/260611/semi-oxidation' },
+                    { label: '[한경] HBM의 비결', slug: 'study-leader/economy-magazine/260611/semi-hbm' },
+                    { label: '[한경] 식각공정', slug: 'study-leader/economy-magazine/260611/semi-etch' },
+                    { label: '[한경] 증착공정', slug: 'study-leader/economy-magazine/260611/semi-deposition' },
+                    { label: '[한경] 금속배선공정', slug: 'study-leader/economy-magazine/260611/semi-metal' },
+                    { label: '[한경] 테스트공정', slug: 'study-leader/economy-magazine/260611/semi-test' },
+                    { label: '[한경] 패키징공정', slug: 'study-leader/economy-magazine/260611/semi-packaging' },
+                    { label: '[한경] 최태원 전략', slug: 'study-leader/economy-magazine/260611/semi-chey' },
+                    { label: '[매경] AI 에너지 블랙홀', slug: 'study-leader/economy-magazine/260611/power-age' },
+                    { label: '[매경] 전력기기 옥석', slug: 'study-leader/economy-magazine/260611/power-kgrid' },
+                    { label: '[매경] 전력망 패키지', slug: 'study-leader/economy-magazine/260611/power-package' },
+                  ],
+                },
+              ],
+            },
             { label: '거시경제', slug: 'study-leader/macro-economy' },
           ],
         },
