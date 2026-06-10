@@ -65,6 +65,7 @@ export default defineConfig({
                     { label: '[한경] 최태원 전략', slug: 'study-leader/economy-magazine/260611/semi-chey' },
                     { label: '[매경] K전력기기', slug: 'study-leader/economy-magazine/260611/power-kgrid' },
                     { label: '[매경] 몸값오른 전력기기', slug: 'study-leader/economy-magazine/260611/power-age' },
+                    { label: '[매경] 그리드 쇼티지', slug: 'study-leader/economy-magazine/260611/power-shortage' },
                     { label: '[매경] 전력망 패키지', slug: 'study-leader/economy-magazine/260611/power-package' },
                   ],
                 },
