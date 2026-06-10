@@ -339,6 +339,47 @@
   margin-top: 9px;
 }
 
+/* ── 트리 정리 구조 ── */
+.tree {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin: 14px 0;
+  padding: 18px 20px;
+  background: var(--sidebar-bg);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+}
+
+.t0 {
+  font-size: 14.5px;
+  font-weight: 700;
+  color: var(--text);
+  line-height: 1.6;
+  margin-bottom: 2px;
+}
+
+.t1 {
+  font-size: 13.5px;
+  color: var(--text-2);
+  padding-left: 14px;
+  line-height: 1.65;
+}
+
+.t1 strong, .t2 strong { color: var(--text); }
+
+.t2 {
+  font-size: 13px;
+  color: var(--text-3);
+  padding-left: 32px;
+  line-height: 1.65;
+}
+
+.t-key {
+  font-weight: 700;
+  color: var(--text);
+}
+
 /* ── 바 차트 ── */
 .bar-chart {
   display: flex;
