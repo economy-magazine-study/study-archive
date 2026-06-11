@@ -113,6 +113,14 @@ export default defineConfig({
                 { label: '강유리', slug: 'gen-4/week-02-2026-06-11/yuri-kang' },
                 { label: '조수진', slug: 'gen-4/week-02-2026-06-11/sujin' },
                 { label: '심소연', slug: 'gen-4/week-02-2026-06-11/shim-soyeon' },
+                {
+                  label: 'sunnypark',
+                  collapsed: false,
+                  items: [
+                    { label: '웨이퍼 제조 (SK실트론)', slug: 'gen-4/week-02-2026-06-11/sunnypark/semiconductor-wafer' },
+                    { label: '산화공정', slug: 'gen-4/week-02-2026-06-11/sunnypark/semiconductor-oxidation' },
+                  ],
+                },
               ],
             },
           ],

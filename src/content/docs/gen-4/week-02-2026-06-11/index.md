@@ -21,6 +21,8 @@ sidebar:
 | 11 | 강유리 | 전기 먹는 AI, 전력기기 몸값 올렸다 | [문서 보기](./yuri-kang/) |
 | 12 | 조수진 | 5년 치 일감 쌓였다…'그리드 쇼티지' | [문서 보기](./sujin/) |
 | 13 | 심소연 | K-전력 인프라 — AI 데이터센터發 수요와 전력망 패키지 | [문서 보기](./shim-soyeon/) |
+| - | sunnypark | 반도체는 웨이퍼에서 시작한다, SK실트론이 5조 몸값 받는 이유 | [문서 보기](./sunnypark/semiconductor-wafer/) |
+| - | sunnypark | 웨이퍼 위 든든한 '보호막' 산화공정, 수율 개선까지 | [문서 보기](./sunnypark/semiconductor-oxidation/) |
 
 ## 진행 메모
 
