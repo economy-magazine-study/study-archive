@@ -84,7 +84,7 @@ export default defineConfig({
               items: [
                 { label: '1주차 개요', slug: 'gen-4/week-01-2026-06-11' },
                 { label: '강유리', slug: 'gen-4/week-01-2026-06-11/yuri-kang' },
-                { label: '임현호', slug: 'gen-4/week-01-2026-06-11/im-hyeonho' },
+                { label: '임현호', slug: 'gen-4/week-01-2026-06-11/hyunho' },
               ],
             },
             {
