@@ -25,7 +25,7 @@ related:
   pages: [gen-4/week-02-2026-06-11/song-hayoung/semiconductor-metal]
 sidebar:
   label: 증착공정
-  order: 1
+  order: 6
 ---
 
 _(한경비즈니스 1591호 · 2026.06 / 김영은 기자)_

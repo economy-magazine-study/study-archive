@@ -61,7 +61,7 @@ related:
   pages: [gen-4/week-01-2026-06-11/hyunho, gen-4/week-01-2026-06-11/yuri-kang]
 sidebar:
   label: 조수진
-  order: 2
+  order: 12
 ---
 
 *(매경ECONOMY 2026.5.27~6.2 · 커버스토리 · 최창원 기자)*

@@ -25,7 +25,7 @@ related:
   pages: [gen-4/week-02-2026-06-11/song-hayoung/semiconductor-deposition]
 sidebar:
   label: 금속배선공정
-  order: 2
+  order: 7
 ---
 
 *(한경비즈니스 1591호 · 2026.06 / 김영은 기자)*

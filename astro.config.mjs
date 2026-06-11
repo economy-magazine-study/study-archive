@@ -94,6 +94,14 @@ export default defineConfig({
                   ],
                 },
                 {
+                  label: '송하영',
+                  collapsed: false,
+                  items: [
+                    { label: '증착공정', slug: 'gen-4/week-02-2026-06-11/song-hayoung/semiconductor-deposition' },
+                    { label: '금속배선공정', slug: 'gen-4/week-02-2026-06-11/song-hayoung/semiconductor-metal' },
+                  ],
+                },
+                {
                   label: '윤혜상',
                   collapsed: false,
                   items: [
@@ -103,6 +111,7 @@ export default defineConfig({
                 },
                 { label: '임현호', slug: 'gen-4/week-02-2026-06-11/hyunho' },
                 { label: '강유리', slug: 'gen-4/week-02-2026-06-11/yuri-kang' },
+                { label: '조수진', slug: 'gen-4/week-02-2026-06-11/sujin' },
               ],
             },
           ],
