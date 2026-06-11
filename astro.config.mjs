@@ -63,8 +63,9 @@ export default defineConfig({
                     { label: '[한경] 테스트공정', slug: 'study-leader/economy-magazine/260611/semi-test' },
                     { label: '[한경] 패키징공정', slug: 'study-leader/economy-magazine/260611/semi-packaging' },
                     { label: '[한경] 최태원 전략', slug: 'study-leader/economy-magazine/260611/semi-chey' },
-                    { label: '[매경] AI 에너지 블랙홀', slug: 'study-leader/economy-magazine/260611/power-age' },
-                    { label: '[매경] 전력기기 옥석', slug: 'study-leader/economy-magazine/260611/power-kgrid' },
+                    { label: '[매경] K전력기기', slug: 'study-leader/economy-magazine/260611/power-kgrid' },
+                    { label: '[매경] 몸값오른 전력기기', slug: 'study-leader/economy-magazine/260611/power-age' },
+                    { label: '[매경] 그리드 쇼티지', slug: 'study-leader/economy-magazine/260611/power-shortage' },
                     { label: '[매경] 전력망 패키지', slug: 'study-leader/economy-magazine/260611/power-package' },
                   ],
                 },
@@ -84,6 +85,7 @@ export default defineConfig({
               items: [
                 { label: '1주차 개요', slug: 'gen-4/week-01-2026-06-11' },
                 { label: '강유리', slug: 'gen-4/week-01-2026-06-11/yuri-kang' },
+                { label: '임현호', slug: 'gen-4/week-01-2026-06-11/hyunho' },
               ],
             },
             {

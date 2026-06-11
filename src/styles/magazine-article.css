@@ -338,3 +338,142 @@
   flex-shrink: 0;
   margin-top: 9px;
 }
+
+/* ── 트리 정리 구조 ── */
+.tree {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  margin: 14px 0;
+  padding: 14px 16px;
+  background: var(--sidebar-bg);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+}
+
+.t0 {
+  font-size: 13.5px;
+  font-weight: 700;
+  color: var(--text);
+  line-height: 1.5;
+  margin-bottom: 3px;
+}
+
+.t1 {
+  font-size: 12.5px;
+  color: var(--text-2);
+  padding: 1px 0 1px 14px;
+  line-height: 1.5;
+  position: relative;
+}
+
+.t1::before {
+  content: '';
+  position: absolute;
+  left: 4px;
+  top: 8px;
+  width: 5px;
+  height: 1.5px;
+  background: var(--text-3);
+  border-radius: 2px;
+}
+
+.t1 strong, .t2 strong { color: var(--text); }
+
+.t2 {
+  font-size: 12px;
+  color: var(--text-3);
+  padding: 1px 0 1px 28px;
+  line-height: 1.5;
+  position: relative;
+}
+
+.t2::before {
+  content: '';
+  position: absolute;
+  left: 17px;
+  top: 8px;
+  width: 5px;
+  height: 1.5px;
+  background: var(--border);
+  border-radius: 2px;
+}
+
+.t-tag {
+  display: inline-block;
+  padding: 1px 6px;
+  border-radius: 4px;
+  font-size: 10.5px;
+  font-weight: 700;
+  background: var(--pill-bg);
+  color: var(--text-3);
+  margin-right: 5px;
+  vertical-align: middle;
+  line-height: 1.8;
+}
+
+/* ── 바 차트 ── */
+.bar-chart {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 18px 0;
+}
+
+.bar-row {
+  display: grid;
+  grid-template-columns: 110px 1fr 64px;
+  align-items: center;
+  gap: 10px;
+}
+
+.bar-lbl {
+  font-size: 12.5px;
+  font-weight: 600;
+  color: var(--text-2);
+  text-align: right;
+  white-space: nowrap;
+}
+
+.bar-track {
+  height: 26px;
+  background: var(--pill-bg);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.bar-fill {
+  height: 100%;
+  border-radius: 6px;
+  background: var(--text);
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  font-size: 11px;
+  font-weight: 700;
+  color: white;
+  white-space: nowrap;
+  min-width: 28px;
+  transition: width 0.6s cubic-bezier(.4,0,.2,1);
+}
+
+.bar-fill.green { background: #16a34a; }
+.bar-fill.blue  { background: #1d4ed8; }
+.bar-fill.orange{ background: #d97706; }
+
+.bar-num {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--text);
+  text-align: right;
+}
+
+.bar-sub {
+  font-size: 11px;
+  color: var(--text-3);
+  font-weight: 400;
+}
+
+/* ── 증감 뱃지 ── */
+.up   { color: #16a34a; font-weight: 700; }
+.down { color: #dc2626; font-weight: 700; }
