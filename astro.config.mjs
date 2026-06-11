@@ -112,6 +112,7 @@ export default defineConfig({
                 { label: '임현호', slug: 'gen-4/week-02-2026-06-11/hyunho' },
                 { label: '강유리', slug: 'gen-4/week-02-2026-06-11/yuri-kang' },
                 { label: '조수진', slug: 'gen-4/week-02-2026-06-11/sujin' },
+                { label: '심소연', slug: 'gen-4/week-02-2026-06-11/shim-soyeon' },
               ],
             },
           ],
