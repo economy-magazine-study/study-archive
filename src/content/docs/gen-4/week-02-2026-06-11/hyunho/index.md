@@ -1,10 +1,10 @@
 ---
 title: 임현호 - "K전력기기 빨리"…속타는 美 빅테크
-description: 2026-06-11 경제잡지 스터디 4기 1주차 공유 문서입니다. AI 데이터센터 수요 폭증으로 호황을 맞은 한국 전력기기·전선 산업을 다룹니다.
+description: 2026-06-11 경제잡지 스터디 4기 2주차 공유 문서입니다. AI 데이터센터 수요 폭증으로 호황을 맞은 한국 전력기기·전선 산업을 다룹니다.
 author: 임현호
 date: 2026-06-11
 generation: 4
-week: 1
+week: 2
 tags: [AI, 전력기기, 전선, 데이터센터, 인프라투자]
 keywords:
   [
@@ -45,10 +45,10 @@ entities:
   indicators: [수주잔액, 영업이익, 데이터센터 전력 사용량, 전력망 시장 규모]
 related:
   topics: [AI 인프라, 전력망, 데이터센터, 에너지 안보]
-  pages: [gen-4/week-01-2026-06-11/yuri-kang]
+  pages: [gen-4/week-02-2026-06-11/yuri-kang]
 sidebar:
   label: 임현호
-  order: 12
+  order: 10
 ---
 
 *(매경ECONOMY 2026.5.27~6.2 · 커버스토리 · 김경민 기자)*

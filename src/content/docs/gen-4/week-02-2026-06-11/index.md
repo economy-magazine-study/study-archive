@@ -11,8 +11,12 @@ sidebar:
 | 순서 | 발표자 | 주제 | 문서 |
 | --- | --- | --- | --- |
 | 1 | 김요욱 | 반도체 호황과 소부장 생태계 | [문서 보기](./kim-yowook/) |
-| 8-9 | 윤혜상 | 반도체 후공정 — 테스트(수율) · 패키징(K-소부장) | [테스트](./yun-hyesang/semiconductor-test/) · [패키징](./yun-hyesang/semiconductor-packaging/) |
-| 10 | 서혜인 | 반도체 전공정 — 포토공정 · 식각공정 | [포토공정](./seo-hyein/semiconductor-photo/) · [식각공정](./seo-hyein/semiconductor-etching/) |
+| 4 | 서혜인 | "쌀이 좋아야 밥이 맛있다" 한국 HBM의 비결 | [문서 보기](./seo-hyein/semiconductor-photo/) |
+| 5 | 서혜인 | "높이 쌓을수록 돈 번다" 식각 1인자와 K-소부장의 도전 | [문서 보기](./seo-hyein/semiconductor-etching/) |
+| 8 | 윤혜상 | 반도체 후공정, 수율을 잡는 자가 시장을 지배한다 | [문서 보기](./yun-hyesang/semiconductor-test/) |
+| 9 | 윤혜상 | 배트 슈트를 입은 반도체, 'AI 패권'을 조립하는 K-소부장 | [문서 보기](./yun-hyesang/semiconductor-packaging/) |
+| 10 | 임현호 | "K전력기기 빨리"…속타는 美 빅테크 | [문서 보기](./hyunho/) |
+| 11 | 강유리 | 전기 먹는 AI, 전력기기 몸값 올렸다 | [문서 보기](./yuri-kang/) |
 
 ## 진행 메모
 

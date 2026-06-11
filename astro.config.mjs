@@ -80,28 +80,11 @@ export default defineConfig({
           items: [
             { label: '4기 홈', slug: 'gen-4' },
             {
-              label: '1주차 (2026-06-11)',
-              collapsed: false,
-              items: [
-                { label: '1주차 개요', slug: 'gen-4/week-01-2026-06-11' },
-                { label: '강유리', slug: 'gen-4/week-01-2026-06-11/yuri-kang' },
-                { label: '임현호', slug: 'gen-4/week-01-2026-06-11/hyunho' },
-              ],
-            },
-            {
               label: '2주차 (2026-06-11)',
               collapsed: false,
               items: [
                 { label: '2주차 개요', slug: 'gen-4/week-02-2026-06-11' },
                 { label: '김요욱', slug: 'gen-4/week-02-2026-06-11/kim-yowook' },
-                {
-                  label: '윤혜상',
-                  collapsed: false,
-                  items: [
-                    { label: '테스트 공정', slug: 'gen-4/week-02-2026-06-11/yun-hyesang/semiconductor-test' },
-                    { label: '패키징 공정', slug: 'gen-4/week-02-2026-06-11/yun-hyesang/semiconductor-packaging' },
-                  ],
-                },
                 {
                   label: '서혜인',
                   collapsed: false,
@@ -110,6 +93,16 @@ export default defineConfig({
                     { label: '식각공정', slug: 'gen-4/week-02-2026-06-11/seo-hyein/semiconductor-etching' },
                   ],
                 },
+                {
+                  label: '윤혜상',
+                  collapsed: false,
+                  items: [
+                    { label: '테스트 공정', slug: 'gen-4/week-02-2026-06-11/yun-hyesang/semiconductor-test' },
+                    { label: '패키징 공정', slug: 'gen-4/week-02-2026-06-11/yun-hyesang/semiconductor-packaging' },
+                  ],
+                },
+                { label: '임현호', slug: 'gen-4/week-02-2026-06-11/hyunho' },
+                { label: '강유리', slug: 'gen-4/week-02-2026-06-11/yuri-kang' },
               ],
             },
           ],

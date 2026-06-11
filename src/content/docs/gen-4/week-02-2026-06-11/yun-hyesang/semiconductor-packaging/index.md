@@ -54,7 +54,7 @@ related:
   pages: [gen-4/week-02-2026-06-11/yun-hyesang/semiconductor-test]
 sidebar:
   label: 패키징 공정
-  order: 2
+  order: 9
 ---
 
 ## 패키징

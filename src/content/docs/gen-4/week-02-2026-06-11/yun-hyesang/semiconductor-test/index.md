@@ -52,7 +52,7 @@ related:
   pages: []
 sidebar:
   label: 테스트 공정
-  order: 1
+  order: 8
 ---
 
 ## 개요
@@ -86,4 +86,3 @@ sidebar:
 ## 후공정 장비 사용자
 - 반도체 제조사: 삼성전자, 하이닉스, TSMC
 - 후공정 외주 전문 기업(OSAT): 대만 ASE와 스필, 미국 엠코, 중국 JCET, 한국 두산테크, 네패스아크, 하나마이크론
-
