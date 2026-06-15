@@ -124,6 +124,14 @@ export default defineConfig({
                 },
               ],
             },
+            {
+              label: '3주차 (2026-06-17)',
+              collapsed: false,
+              items: [
+                { label: '3주차 개요', slug: 'gen-4/week-03-2026-06-17' },
+                { label: '윤혜상', slug: 'gen-4/week-03-2026-06-17/yun-hyesang' },
+              ],
+            },
           ],
         },
         {
