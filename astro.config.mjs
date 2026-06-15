@@ -1,4 +1,4 @@
-﻿// @ts-check
+// @ts-check
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 
@@ -8,10 +8,10 @@ export default defineConfig({
   base: '/study-archive',
   integrations: [
     starlight({
-      title: '寃쎌젣?≪? ?ㅽ꽣???꾩뭅?대툕',
-      description: '寃쎌젣?≪? ?ㅽ꽣?붿뿉??留ㅼ＜ 怨듬??섍퀬 怨듭쑀???댁슜??紐⑥븘?먮뒗 ?꾩뭅?대툕?낅땲??',
+      title: '경제잡지 스터디 아카이브',
+      description: '경제잡지 스터디에서 매주 공부하고 공유한 내용을 모아두는 아카이브입니다.',
       defaultLocale: 'ko',
-      locales: { root: { label: '?쒓뎅??, lang: 'ko' } },
+      locales: { root: { label: '한국어', lang: 'ko' } },
       favicon: '/study-archive/favicon.svg',
       customCss: ['./src/styles/magazine-article.css'],
       social: [
@@ -27,17 +27,17 @@ export default defineConfig({
       pagination: true,
       tableOfContents: { minHeadingLevel: 2, maxHeadingLevel: 3 },
       sidebar: [
-        { label: '??, slug: 'index' },
+        { label: '홈', slug: 'index' },
         {
-          label: '?ㅽ꽣?붿옣',
+          label: '스터디장',
           collapsed: false,
           items: [
-            { label: '?ㅽ꽣?붿옣 怨듦컙', slug: 'study-leader' },
+            { label: '스터디장 공간', slug: 'study-leader' },
             {
-              label: '?곗씪由??댁뒪',
+              label: '데일리 뉴스',
               collapsed: false,
               items: [
-                { label: '?곗씪由??댁뒪 ??, slug: 'study-leader/daily-news' },
+                { label: '데일리 뉴스 홈', slug: 'study-leader/daily-news' },
                 { label: '20260608', slug: 'study-leader/daily-news/20260608' },
                 { label: '20260609', slug: 'study-leader/daily-news/20260609' },
                 { label: '20260610', slug: 'study-leader/daily-news/20260610' },
@@ -45,81 +45,81 @@ export default defineConfig({
               ],
             },
             {
-              label: '寃쎌젣?≪?',
+              label: '경제잡지',
               collapsed: false,
               items: [
-                { label: '寃쎌젣?≪? ??, slug: 'study-leader/economy-magazine' },
+                { label: '경제잡지 홈', slug: 'study-leader/economy-magazine' },
                 {
-                  label: '260611 諛섎룄泥??꾨젰',
+                  label: '260611 반도체/전력',
                   collapsed: false,
                   items: [
-                    { label: '媛쒖슂', slug: 'study-leader/economy-magazine/260611' },
-                    { label: '[?쒓꼍] ?뚮????꾩떎', slug: 'study-leader/economy-magazine/260611/semi-sobu' },
-                    { label: '[?쒓꼍] SK?ㅽ듃濡?紐멸컪', slug: 'study-leader/economy-magazine/260611/semi-siltron' },
-                    { label: '[?쒓꼍] ?고솕怨듭젙', slug: 'study-leader/economy-magazine/260611/semi-oxidation' },
-                    { label: '[?쒓꼍] HBM??鍮꾧껐', slug: 'study-leader/economy-magazine/260611/semi-hbm' },
-                    { label: '[?쒓꼍] ?앷컖怨듭젙', slug: 'study-leader/economy-magazine/260611/semi-etch' },
-                    { label: '[?쒓꼍] 利앹갑怨듭젙', slug: 'study-leader/economy-magazine/260611/semi-deposition' },
-                    { label: '[?쒓꼍] 湲덉냽諛곗꽑怨듭젙', slug: 'study-leader/economy-magazine/260611/semi-metal' },
-                    { label: '[?쒓꼍] ?뚯뒪?멸났??, slug: 'study-leader/economy-magazine/260611/semi-test' },
-                    { label: '[?쒓꼍] ?⑦궎吏뺢났??, slug: 'study-leader/economy-magazine/260611/semi-packaging' },
-                    { label: '[?쒓꼍] 理쒗깭???꾨왂', slug: 'study-leader/economy-magazine/260611/semi-chey' },
-                    { label: '[留ㅺ꼍] K?꾨젰湲곌린', slug: 'study-leader/economy-magazine/260611/power-kgrid' },
-                    { label: '[留ㅺ꼍] 紐멸컪?ㅻⅨ ?꾨젰湲곌린', slug: 'study-leader/economy-magazine/260611/power-age' },
-                    { label: '[留ㅺ꼍] 洹몃━???쇳떚吏', slug: 'study-leader/economy-magazine/260611/power-shortage' },
-                    { label: '[留ㅺ꼍] ?꾨젰留??⑦궎吏', slug: 'study-leader/economy-magazine/260611/power-package' },
+                    { label: '개요', slug: 'study-leader/economy-magazine/260611' },
+                    { label: '[한경] 소부장 현실', slug: 'study-leader/economy-magazine/260611/semi-sobu' },
+                    { label: '[한경] SK실트론 몸값', slug: 'study-leader/economy-magazine/260611/semi-siltron' },
+                    { label: '[한경] 산화공정', slug: 'study-leader/economy-magazine/260611/semi-oxidation' },
+                    { label: '[한경] HBM의 비결', slug: 'study-leader/economy-magazine/260611/semi-hbm' },
+                    { label: '[한경] 식각공정', slug: 'study-leader/economy-magazine/260611/semi-etch' },
+                    { label: '[한경] 증착공정', slug: 'study-leader/economy-magazine/260611/semi-deposition' },
+                    { label: '[한경] 금속배선공정', slug: 'study-leader/economy-magazine/260611/semi-metal' },
+                    { label: '[한경] 테스트공정', slug: 'study-leader/economy-magazine/260611/semi-test' },
+                    { label: '[한경] 패키징공정', slug: 'study-leader/economy-magazine/260611/semi-packaging' },
+                    { label: '[한경] 최태원 전략', slug: 'study-leader/economy-magazine/260611/semi-chey' },
+                    { label: '[매경] K전력기기', slug: 'study-leader/economy-magazine/260611/power-kgrid' },
+                    { label: '[매경] 몸값오른 전력기기', slug: 'study-leader/economy-magazine/260611/power-age' },
+                    { label: '[매경] 그리드 쇼티지', slug: 'study-leader/economy-magazine/260611/power-shortage' },
+                    { label: '[매경] 전력망 패키지', slug: 'study-leader/economy-magazine/260611/power-package' },
                   ],
                 },
               ],
             },
-            { label: '嫄곗떆寃쎌젣', slug: 'study-leader/macro-economy' },
+            { label: '거시경제', slug: 'study-leader/macro-economy' },
           ],
         },
         {
-          label: '4湲?,
+          label: '4기',
           collapsed: false,
           items: [
-            { label: '4湲???, slug: 'gen-4' },
+            { label: '4기 홈', slug: 'gen-4' },
             {
-              label: '2二쇱감 (2026-06-11)',
+              label: '2주차 (2026-06-11)',
               collapsed: false,
               items: [
-                { label: '2二쇱감 媛쒖슂', slug: 'gen-4/week-02-2026-06-11' },
-                { label: '源?붿슧', slug: 'gen-4/week-02-2026-06-11/kim-yowook' },
+                { label: '2주차 개요', slug: 'gen-4/week-02-2026-06-11' },
+                { label: '김요욱', slug: 'gen-4/week-02-2026-06-11/kim-yowook' },
                 {
-                  label: '?쒗삙??,
+                  label: '서혜인',
                   collapsed: false,
                   items: [
-                    { label: '?ы넗怨듭젙', slug: 'gen-4/week-02-2026-06-11/seo-hyein/semiconductor-photo' },
-                    { label: '?앷컖怨듭젙', slug: 'gen-4/week-02-2026-06-11/seo-hyein/semiconductor-etching' },
+                    { label: '포토공정', slug: 'gen-4/week-02-2026-06-11/seo-hyein/semiconductor-photo' },
+                    { label: '식각공정', slug: 'gen-4/week-02-2026-06-11/seo-hyein/semiconductor-etching' },
                   ],
                 },
                 {
-                  label: '?≫븯??,
+                  label: '송하영',
                   collapsed: false,
                   items: [
-                    { label: '利앹갑怨듭젙', slug: 'gen-4/week-02-2026-06-11/song-hayoung/semiconductor-deposition' },
-                    { label: '湲덉냽諛곗꽑怨듭젙', slug: 'gen-4/week-02-2026-06-11/song-hayoung/semiconductor-metal' },
+                    { label: '증착공정', slug: 'gen-4/week-02-2026-06-11/song-hayoung/semiconductor-deposition' },
+                    { label: '금속배선공정', slug: 'gen-4/week-02-2026-06-11/song-hayoung/semiconductor-metal' },
                   ],
                 },
                 {
-                  label: '?ㅽ삙??,
+                  label: '윤혜상',
                   collapsed: false,
                   items: [
-                    { label: '?뚯뒪??怨듭젙', slug: 'gen-4/week-02-2026-06-11/yun-hyesang/semiconductor-test' },
-                    { label: '?⑦궎吏?怨듭젙', slug: 'gen-4/week-02-2026-06-11/yun-hyesang/semiconductor-packaging' },
+                    { label: '테스트 공정', slug: 'gen-4/week-02-2026-06-11/yun-hyesang/semiconductor-test' },
+                    { label: '패키징 공정', slug: 'gen-4/week-02-2026-06-11/yun-hyesang/semiconductor-packaging' },
                   ],
                 },
-                { label: '?꾪쁽??, slug: 'gen-4/week-02-2026-06-11/hyunho' },
-                { label: '媛뺤쑀由?, slug: 'gen-4/week-02-2026-06-11/yuri-kang' },
-                { label: '議곗닔吏?, slug: 'gen-4/week-02-2026-06-11/sujin' },
-                { label: '?ъ냼??, slug: 'gen-4/week-02-2026-06-11/shim-soyeon' },
+                { label: '임현호', slug: 'gen-4/week-02-2026-06-11/hyunho' },
+                { label: '강유리', slug: 'gen-4/week-02-2026-06-11/yuri-kang' },
+                { label: '조수진', slug: 'gen-4/week-02-2026-06-11/sujin' },
+                { label: '심소연', slug: 'gen-4/week-02-2026-06-11/shim-soyeon' },
                 {
                   label: 'sunnypark',
                   collapsed: false,
                   items: [
-                    { label: '?⑥씠???쒖“ (SK?ㅽ듃濡?', slug: 'gen-4/week-02-2026-06-11/sunnypark/semiconductor-wafer' },
-                    { label: '?고솕怨듭젙', slug: 'gen-4/week-02-2026-06-11/sunnypark/semiconductor-oxidation' },
+                    { label: '웨이퍼 제조 (SK실트론)', slug: 'gen-4/week-02-2026-06-11/sunnypark/semiconductor-wafer' },
+                    { label: '산화공정', slug: 'gen-4/week-02-2026-06-11/sunnypark/semiconductor-oxidation' },
                   ],
                 },
               ],
@@ -127,7 +127,7 @@ export default defineConfig({
           ],
         },
         {
-          label: '?댁쁺 臾몄꽌',
+          label: '운영 문서',
           collapsed: true,
           items: [{ autogenerate: { directory: 'operations', collapsed: true } }],
         },
@@ -135,5 +135,3 @@ export default defineConfig({
     }),
   ],
 });
-
-
