@@ -50,7 +50,7 @@ related:
   pages: [gen-4/week-02-2026-06-11/seo-hyein/semiconductor-photo]
 sidebar:
   label: 식각공정
-  order: 2
+  order: 5
 ---
 
 *(한경비즈니스 2026.06 / 김영은 기자)*

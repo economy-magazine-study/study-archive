@@ -48,7 +48,7 @@ related:
   pages: [gen-4/week-02-2026-06-11/seo-hyein/semiconductor-etching]
 sidebar:
   label: 포토공정
-  order: 1
+  order: 4
 ---
 
 *(한경비즈니스 2026.06 / 김영은 기자)*

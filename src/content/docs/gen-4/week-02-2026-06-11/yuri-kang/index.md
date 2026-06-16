@@ -1,10 +1,10 @@
 ---
 title: 강유리 - 전기 먹는 AI, 전력기기 몸값 올렸다
-description: 2026-06-11 경제잡지 스터디 4기 1주차 공유 문서입니다.
+description: 2026-06-11 경제잡지 스터디 4기 2주차 공유 문서입니다.
 author: 강유리
 date: 2026-06-11
 generation: 4
-week: 1
+week: 2
 tags: [AI, 전력기기, 에너지, 데이터센터, 인프라투자]
 keywords:
   [
