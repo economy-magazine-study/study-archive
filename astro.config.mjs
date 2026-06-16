@@ -57,6 +57,7 @@ export default defineConfig({
                   items: [
                     { label: '개요', slug: 'study-leader/economy-magazine/260615' },
                     { label: '[매경] 핵심과 위성 전략', slug: 'study-leader/economy-magazine/260615/core-satellite' },
+                    { label: '[한경] 자본주의 4.0시대', slug: 'study-leader/economy-magazine/260615/capitalism-40' },
                   ],
                 },
                 {
