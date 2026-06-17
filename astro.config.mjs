@@ -86,6 +86,7 @@ export default defineConfig({
                     { label: '[한경] 돈은 병목으로 흐른다', slug: 'study-leader/economy-magazine/260615/bottleneck-investing' },
                     { label: '[한경] 공격과 방어의 균형전략', slug: 'study-leader/economy-magazine/260615/balance-strategy' },
                     { label: '[한경] 전쟁이 키운 비트코인', slug: 'study-leader/economy-magazine/260615/bitcoin-infrastructure' },
+                    { label: '[한경] 제도가 시장을 만든다', slug: 'study-leader/economy-magazine/260615/institution-market' },
                   ],
                 },
               ],
