@@ -97,7 +97,7 @@ export default defineConfig({
             { label: '4기 홈', slug: 'gen-4' },
             {
               label: '2주차 (2026-06-11)',
-              collapsed: false,
+              collapsed: true,
               items: [
                 { label: '2주차 개요', slug: 'gen-4/week-02-2026-06-11' },
                 { label: '김요욱', slug: 'gen-4/week-02-2026-06-11/kim-yowook' },
