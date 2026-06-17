@@ -53,18 +53,6 @@ export default defineConfig({
               items: [
                 { label: '경제잡지 홈', slug: 'study-leader/economy-magazine' },
                 {
-                  label: '260615 투자전략',
-                  collapsed: false,
-                  items: [
-                    { label: '개요', slug: 'study-leader/economy-magazine/260615' },
-                    { label: '[매경] 핵심과 위성 전략', slug: 'study-leader/economy-magazine/260615/core-satellite' },
-                    { label: '[한경] 자본주의 4.0시대', slug: 'study-leader/economy-magazine/260615/capitalism-40' },
-                    { label: '[한경] 안정적 현금흐름 전략', slug: 'study-leader/economy-magazine/260615/cashflow-strategy' },
-                    { label: '[한경] 사이클 읽는 능력', slug: 'study-leader/economy-magazine/260615/cycle-reading' },
-                    { label: '[한경] 외인이 노리는 타이밍', slug: 'study-leader/economy-magazine/260615/foreign-timing' },
-                  ],
-                },
-                {
                   label: '260611 반도체/전력',
                   collapsed: true,
                   items: [
@@ -83,6 +71,18 @@ export default defineConfig({
                     { label: '[매경] 몸값오른 전력기기', slug: 'study-leader/economy-magazine/260611/power-age' },
                     { label: '[매경] 그리드 쇼티지', slug: 'study-leader/economy-magazine/260611/power-shortage' },
                     { label: '[매경] 전력망 패키지', slug: 'study-leader/economy-magazine/260611/power-package' },
+                  ],
+                },
+                {
+                  label: '260615 투자전략',
+                  collapsed: false,
+                  items: [
+                    { label: '개요', slug: 'study-leader/economy-magazine/260615' },
+                    { label: '[매경] 핵심과 위성 전략', slug: 'study-leader/economy-magazine/260615/core-satellite' },
+                    { label: '[한경] 자본주의 4.0시대', slug: 'study-leader/economy-magazine/260615/capitalism-40' },
+                    { label: '[한경] 안정적 현금흐름 전략', slug: 'study-leader/economy-magazine/260615/cashflow-strategy' },
+                    { label: '[한경] 사이클 읽는 능력', slug: 'study-leader/economy-magazine/260615/cycle-reading' },
+                    { label: '[한경] 외인이 노리는 타이밍', slug: 'study-leader/economy-magazine/260615/foreign-timing' },
                   ],
                 },
               ],
