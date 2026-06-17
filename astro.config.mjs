@@ -14,6 +14,9 @@ export default defineConfig({
       locales: { root: { label: '한국어', lang: 'ko' } },
       favicon: '/study-archive/favicon.svg',
       customCss: ['./src/styles/magazine-article.css'],
+      components: {
+        Head: './src/components/Head.astro',
+      },
       social: [
         {
           icon: 'github',
