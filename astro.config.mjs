@@ -35,7 +35,7 @@ export default defineConfig({
             { label: '스터디장 공간', slug: 'study-leader' },
             {
               label: '데일리 뉴스',
-              collapsed: false,
+              collapsed: true,
               items: [
                 { label: '데일리 뉴스 홈', slug: 'study-leader/daily-news' },
                 { label: '20260608', slug: 'study-leader/daily-news/20260608' },
@@ -66,7 +66,7 @@ export default defineConfig({
                 },
                 {
                   label: '260611 반도체/전력',
-                  collapsed: false,
+                  collapsed: true,
                   items: [
                     { label: '개요', slug: 'study-leader/economy-magazine/260611' },
                     { label: '[한경] 소부장 현실', slug: 'study-leader/economy-magazine/260611/semi-sobu' },
