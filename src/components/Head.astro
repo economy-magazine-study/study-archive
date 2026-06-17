@@ -6,14 +6,13 @@ import Default from '@astrojs/starlight/components/Head.astro';
 <style>
   #sl-sidebar-toggle {
     position: fixed;
-    top: 50%;
-    left: var(--sl-sidebar-width, 16rem);
+    top: 50vh;
     transform: translateY(-50%);
-    z-index: 999;
+    z-index: 9999;
     width: 18px;
     height: 44px;
-    background: var(--sl-color-bg-nav);
-    border: 1px solid var(--sl-color-hairline-light);
+    background: var(--sl-color-bg-nav, #f6f6f6);
+    border: 1px solid var(--sl-color-hairline-light, #e0e0e0);
     border-left: none;
     border-radius: 0 6px 6px 0;
     cursor: pointer;
@@ -21,14 +20,14 @@ import Default from '@astrojs/starlight/components/Head.astro';
     align-items: center;
     justify-content: center;
     font-size: 9px;
-    color: var(--sl-color-text-accent);
-    transition: left 0.25s ease;
+    color: var(--sl-color-text-accent, #444);
     padding: 0;
     line-height: 1;
+    transition: background 0.15s;
   }
 
   #sl-sidebar-toggle:hover {
-    background: var(--sl-color-bg-inline-code);
+    background: var(--sl-color-bg-inline-code, #eee);
   }
 
   body.sl-sidebar-hidden #starlight__sidebar {
@@ -36,56 +35,64 @@ import Default from '@astrojs/starlight/components/Head.astro';
   }
 
   body.sl-sidebar-hidden .page {
-    --sl-sidebar-width: 0rem !important;
+    --sl-sidebar-width: 0px !important;
   }
 
   body.sl-sidebar-hidden #sl-sidebar-toggle {
-    left: 0;
-    border-left: 1px solid var(--sl-color-hairline-light);
+    left: 0px !important;
+    border-left: 1px solid var(--sl-color-hairline-light, #e0e0e0);
     border-radius: 0 6px 6px 0;
   }
 
   @media (max-width: 72rem) {
     #sl-sidebar-toggle {
-      display: none;
+      display: none !important;
     }
   }
 </style>
 
 <script>
   function initSidebarToggle() {
+    const existing = document.getElementById('sl-sidebar-toggle');
+    if (existing) existing.remove();
+
+    const sidebar = document.getElementById('starlight__sidebar');
+    if (!sidebar) return;
+
     const btn = document.createElement('button');
     btn.id = 'sl-sidebar-toggle';
-    btn.setAttribute('aria-label', '사이드바 열기/닫기');
-    btn.innerHTML = '◀';
+    btn.setAttribute('aria-label', '사이드바 토글');
     document.body.appendChild(btn);
 
-    function applyState(hidden: boolean) {
-      if (hidden) {
-        document.body.classList.add('sl-sidebar-hidden');
-        btn.innerHTML = '▶';
-        btn.title = '사이드바 열기';
+    function updateBtnPosition() {
+      if (document.body.classList.contains('sl-sidebar-hidden')) {
+        btn.style.left = '0px';
       } else {
-        document.body.classList.remove('sl-sidebar-hidden');
-        btn.innerHTML = '◀';
-        btn.title = '사이드바 닫기';
+        const rect = sidebar.getBoundingClientRect();
+        btn.style.left = rect.right + 'px';
       }
     }
 
-    // 저장된 상태 복원
-    const saved = localStorage.getItem('sl-sidebar-hidden');
-    if (saved === '1') applyState(true);
+    function applyState(hidden: boolean) {
+      document.body.classList.toggle('sl-sidebar-hidden', hidden);
+      btn.textContent = hidden ? '▶' : '◀';
+      updateBtnPosition();
+    }
 
     btn.addEventListener('click', () => {
       const hidden = !document.body.classList.contains('sl-sidebar-hidden');
       applyState(hidden);
       localStorage.setItem('sl-sidebar-hidden', hidden ? '1' : '0');
     });
+
+    // 저장된 상태 복원
+    const saved = localStorage.getItem('sl-sidebar-hidden') === '1';
+    applyState(saved);
+
+    // 리사이즈 시 위치 재계산
+    window.addEventListener('resize', updateBtnPosition);
   }
 
-  // 페이지 로드 시 실행
   initSidebarToggle();
-
-  // View Transitions 지원 (Astro)
   document.addEventListener('astro:page-load', initSidebarToggle);
 </script>
