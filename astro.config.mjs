@@ -83,6 +83,7 @@ export default defineConfig({
                     { label: '[한경] 안정적 현금흐름 전략', slug: 'study-leader/economy-magazine/260615/cashflow-strategy' },
                     { label: '[한경] 사이클 읽는 능력', slug: 'study-leader/economy-magazine/260615/cycle-reading' },
                     { label: '[한경] 외인이 노리는 타이밍', slug: 'study-leader/economy-magazine/260615/foreign-timing' },
+                    { label: '[한경] 돈은 병목으로 흐른다', slug: 'study-leader/economy-magazine/260615/bottleneck-investing' },
                   ],
                 },
               ],
