@@ -16,6 +16,22 @@ pnpm install
 pnpm dev
 ```
 
+## 커밋 전 문서 메타데이터 확인
+
+새 문서를 추가할 때 frontmatter의 `sidebar`, 주차별 `index.md` 발표 목록, `astro.config.mjs` 사이드바 등록이 빠지지 않도록 아래 검사를 실행합니다.
+
+```bash
+pnpm docs:check
+```
+
+커밋 전에 자동으로 확인하려면 한 번만 훅 경로를 설정합니다.
+
+```bash
+git config core.hooksPath .githooks
+```
+
+검사 실패 메시지에는 수정해야 할 파일 경로와 추가할 `sidebar`/링크/slug가 함께 표시됩니다.
+
 ## 빌드 확인
 
 ```bash
