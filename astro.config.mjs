@@ -35,7 +35,7 @@ export default defineConfig({
             { label: '스터디장 공간', slug: 'study-leader' },
             {
               label: '데일리 뉴스',
-              collapsed: false,
+              collapsed: true,
               items: [
                 { label: '데일리 뉴스 홈', slug: 'study-leader/daily-news' },
                 { label: '20260608', slug: 'study-leader/daily-news/20260608' },
@@ -53,21 +53,8 @@ export default defineConfig({
               items: [
                 { label: '경제잡지 홈', slug: 'study-leader/economy-magazine' },
                 {
-                  label: '260615 투자전략',
-                  collapsed: false,
-                  items: [
-                    { label: '개요', slug: 'study-leader/economy-magazine/260615' },
-                    { label: '[매경] 핵심과 위성 전략', slug: 'study-leader/economy-magazine/260615/core-satellite' },
-                    { label: '[한경] 자본주의 4.0시대', slug: 'study-leader/economy-magazine/260615/capitalism-40' },
-                    { label: '[한경] 안정적 현금흐름 전략', slug: 'study-leader/economy-magazine/260615/cashflow-strategy' },
-                    { label: '[한경] 사이클 읽는 능력', slug: 'study-leader/economy-magazine/260615/cycle-reading' },
-                    { label: '[한경] 외인이 노리는 타이밍', slug: 'study-leader/economy-magazine/260615/foreign-timing' },
-                    { label: '[한경] 돈은 병목으로 흐른다', slug: 'study-leader/economy-magazine/260615/bottleneck-investing' },
-                  ],
-                },
-                {
                   label: '260611 반도체/전력',
-                  collapsed: false,
+                  collapsed: true,
                   items: [
                     { label: '개요', slug: 'study-leader/economy-magazine/260611' },
                     { label: '[한경] 소부장 현실', slug: 'study-leader/economy-magazine/260611/semi-sobu' },
@@ -86,6 +73,18 @@ export default defineConfig({
                     { label: '[매경] 전력망 패키지', slug: 'study-leader/economy-magazine/260611/power-package' },
                   ],
                 },
+                {
+                  label: '260615 투자전략',
+                  collapsed: true,
+                  items: [
+                    { label: '개요', slug: 'study-leader/economy-magazine/260615' },
+                    { label: '[매경] 핵심과 위성 전략', slug: 'study-leader/economy-magazine/260615/core-satellite' },
+                    { label: '[한경] 자본주의 4.0시대', slug: 'study-leader/economy-magazine/260615/capitalism-40' },
+                    { label: '[한경] 안정적 현금흐름 전략', slug: 'study-leader/economy-magazine/260615/cashflow-strategy' },
+                    { label: '[한경] 사이클 읽는 능력', slug: 'study-leader/economy-magazine/260615/cycle-reading' },
+                    { label: '[한경] 외인이 노리는 타이밍', slug: 'study-leader/economy-magazine/260615/foreign-timing' },
+                  ],
+                },
               ],
             },
             { label: '거시경제', slug: 'study-leader/macro-economy' },
@@ -98,7 +97,7 @@ export default defineConfig({
             { label: '4기 홈', slug: 'gen-4' },
             {
               label: '2주차 (2026-06-11)',
-              collapsed: false,
+              collapsed: true,
               items: [
                 { label: '2주차 개요', slug: 'gen-4/week-02-2026-06-11' },
                 { label: '김요욱', slug: 'gen-4/week-02-2026-06-11/kim-yowook' },
