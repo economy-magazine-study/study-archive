@@ -11,12 +11,11 @@ import Default from '@astrojs/starlight/components/Head.astro';
     z-index: 9999;
     width: 18px;
     height: 44px;
-    background: var(--sl-color-bg-nav, #f6f6f6);
+    background: var(--sl-color-bg-sidebar, #f6f6f6);
     border: 1px solid var(--sl-color-hairline-light, #e0e0e0);
     border-left: none;
     border-radius: 0 6px 6px 0;
     cursor: pointer;
-    display: flex;
     align-items: center;
     justify-content: center;
     font-size: 9px;
@@ -24,13 +23,20 @@ import Default from '@astrojs/starlight/components/Head.astro';
     padding: 0;
     line-height: 1;
     transition: background 0.15s;
+    /* JS가 위치 잡을 때까지 숨김 */
+    display: none;
+  }
+
+  #sl-sidebar-toggle.ready {
+    display: flex;
   }
 
   #sl-sidebar-toggle:hover {
     background: var(--sl-color-bg-inline-code, #eee);
   }
 
-  body.sl-sidebar-hidden #starlight__sidebar {
+  /* 사이드바 숨김 상태 */
+  body.sl-sidebar-hidden nav.sidebar {
     display: none !important;
   }
 
@@ -38,12 +44,7 @@ import Default from '@astrojs/starlight/components/Head.astro';
     --sl-sidebar-width: 0px !important;
   }
 
-  body.sl-sidebar-hidden #sl-sidebar-toggle {
-    left: 0px !important;
-    border-left: 1px solid var(--sl-color-hairline-light, #e0e0e0);
-    border-radius: 0 6px 6px 0;
-  }
-
+  /* 모바일에서는 버튼 숨김 */
   @media (max-width: 72rem) {
     #sl-sidebar-toggle {
       display: none !important;
@@ -53,18 +54,23 @@ import Default from '@astrojs/starlight/components/Head.astro';
 
 <script>
   function initSidebarToggle() {
+    // 기존 버튼 제거
     const existing = document.getElementById('sl-sidebar-toggle');
     if (existing) existing.remove();
 
-    const sidebar = document.getElementById('starlight__sidebar');
+    // 사이드바 없는 페이지(홈 등)는 무시
+    const sidebar = document.querySelector('nav.sidebar');
     if (!sidebar) return;
+
+    // 데스크탑 크기에서만 버튼 생성
+    if (window.innerWidth <= 1152) return;
 
     const btn = document.createElement('button');
     btn.id = 'sl-sidebar-toggle';
     btn.setAttribute('aria-label', '사이드바 토글');
     document.body.appendChild(btn);
 
-    function updateBtnPosition() {
+    function updatePosition() {
       if (document.body.classList.contains('sl-sidebar-hidden')) {
         btn.style.left = '0px';
       } else {
@@ -76,7 +82,7 @@ import Default from '@astrojs/starlight/components/Head.astro';
     function applyState(hidden: boolean) {
       document.body.classList.toggle('sl-sidebar-hidden', hidden);
       btn.textContent = hidden ? '▶' : '◀';
-      updateBtnPosition();
+      updatePosition();
     }
 
     btn.addEventListener('click', () => {
@@ -86,11 +92,22 @@ import Default from '@astrojs/starlight/components/Head.astro';
     });
 
     // 저장된 상태 복원
-    const saved = localStorage.getItem('sl-sidebar-hidden') === '1';
-    applyState(saved);
+    applyState(localStorage.getItem('sl-sidebar-hidden') === '1');
 
-    // 리사이즈 시 위치 재계산
-    window.addEventListener('resize', updateBtnPosition);
+    // 위치 확정 후 버튼 표시
+    requestAnimationFrame(() => {
+      updatePosition();
+      btn.classList.add('ready');
+    });
+
+    window.addEventListener('resize', () => {
+      if (window.innerWidth <= 1152) {
+        btn.style.display = 'none';
+      } else {
+        btn.style.display = '';
+        updatePosition();
+      }
+    });
   }
 
   initSidebarToggle();
