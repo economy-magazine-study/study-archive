@@ -74,7 +74,7 @@ export default defineConfig({
                   ],
                 },
                 {
-                  label: '260615 투자전략',
+                  label: '260617 투자전략',
                   collapsed: true,
                   items: [
                     { label: '개요', slug: 'study-leader/economy-magazine/260615' },
