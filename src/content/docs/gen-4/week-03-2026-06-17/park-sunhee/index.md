@@ -1,3 +1,33 @@
+---
+title: 박선희 - "국장 회의론이 곧 기회" 돈은 병목으로 흐른다
+description: 2026-06-17 경제잡지 스터디 4기 3주차 공유 문서입니다.
+author: 박선희
+date: 2026-06-17
+generation: 4
+week: 3
+tags: [투자전략, 반도체, 피지컬AI, 에너지, 국내증시]
+keywords: [병목투자, 태조이방원, 금반지, 피지컬AI, 메모리반도체, 역발상투자, ESS, SMR, 리튬]
+source:
+  title: '"국장 회의론이 곧 기회" 돈은 병목으로 흐른다'
+  publication: 한경BUSINESS
+  publishedDate: 2026-06-10
+  url:
+  section: 이선엽 AFW파트너스 대표 인터뷰
+entities:
+  countries: [한국, 미국, 일본, 대만]
+  regions: []
+  organizations: [AFW파트너스, 한국은행, Fed]
+  companies: [삼성전자, SK하이닉스, TSMC, 현대차, 현대오토에버, 현대모비스, LG전자, LG이노텍, 레인보우로보틱스, 기아, 현대글로비스, 로보티즈, 삼성SDI, LG에너지솔루션, POSCO홀딩스]
+  people: [이선엽]
+  indicators: [PBR, 시가총액, 기준금리]
+related:
+  topics: [병목 투자전략, 피지컬 AI, 반도체 밸류체인, 에너지·전력 인프라]
+  pages: []
+sidebar:
+  label: 박선희
+  order: 1
+---
+
 # 📰 기사 요약 | 한경BUSINESS 2026.06.10~16
 
 > **출처**: 한경BUSINESS  
