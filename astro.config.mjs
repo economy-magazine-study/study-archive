@@ -44,6 +44,7 @@ export default defineConfig({
                 { label: '20260612', slug: 'study-leader/daily-news/20260612' },
                 { label: '20260615', slug: 'study-leader/daily-news/20260615' },
                 { label: '20260616', slug: 'study-leader/daily-news/20260616' },
+                { label: '20260617', slug: 'study-leader/daily-news/20260617' },
               ],
             },
             {
