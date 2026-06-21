@@ -39,7 +39,6 @@ export default defineConfig({
             {
               label: '데일리 뉴스',
               collapsed: true,
-              collapsible: false,
               items: [
                 { label: '데일리 뉴스 홈', slug: 'study-leader/daily-news' },
                 { label: '20260608', slug: 'study-leader/daily-news/20260608' },
