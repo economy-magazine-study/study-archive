@@ -170,6 +170,14 @@ export default defineConfig({
                 { label: '조수진', slug: 'gen-4/week-03-2026-06-17/sujin' },
               ],
             },
+            {
+              label: '4주차 (2026-06-25)',
+              collapsed: false,
+              items: [
+                { label: '4주차 개요', slug: 'gen-4/week-04-2026-06-25' },
+                { label: '윤혜상', slug: 'gen-4/week-04-2026-06-25/yun-hyesang' },
+              ],
+            },
           ],
         },
         {
