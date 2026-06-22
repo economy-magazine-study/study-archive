@@ -101,7 +101,7 @@ export default defineConfig({
                   items: [
                     { label: '개요', slug: 'study-leader/economy-magazine/260625' },
                     { label: '[한경] 금리인상의 시간', slug: 'study-leader/economy-magazine/260625/interest-rate-hike' },
-                    { label: '[한경] 금리인상 청구서', slug: 'study-leader/economy-magazine/260625/rate-hike-bill' },
+                    { label: '[한경] 금리인상, 증시는 반도체로 버틸 것', slug: 'study-leader/economy-magazine/260625/rate-hike-bill' },
                   ],
                 },
               ],
