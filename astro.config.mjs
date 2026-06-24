@@ -105,7 +105,7 @@ export default defineConfig({
                     { label: '[한경] 금리인상, 증시는 반도체로 버틸 것', slug: 'study-leader/economy-magazine/260625/rate-hike-bill' },
                     { label: '[한경] 깨진 공식과 새로운 시대', slug: 'study-leader/economy-magazine/260625/broken-formula' },
                     { label: '[한경] 롯데의 완벽한 부활', slug: 'study-leader/economy-magazine/260625/lotte-revival' },
-                    { label: '[한경] 압축 성장 덫에 빠진 K방산', slug: 'study-leader/economy-magazine/260625/k-defense' },
+                    { label: '[매경] 달라진 돈줄기, 리테일 머니', slug: 'study-leader/economy-magazine/260625/retail-money' },
                   ],
                 },
               ],
