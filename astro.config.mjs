@@ -108,6 +108,7 @@ export default defineConfig({
                     { label: '[매경] 달라진 돈줄기, 리테일 머니', slug: 'study-leader/economy-magazine/260625/retail-money' },
                     { label: '[매경] 머니무브 가속, 리테일 런 뇌관', slug: 'study-leader/economy-magazine/260625/money-move' },
                     { label: '[매경] 힘 세진 개미, 4가지 신풍속도', slug: 'study-leader/economy-magazine/260625/retail-newwave' },
+                    { label: '[매경] 리테일 머니의 미래', slug: 'study-leader/economy-magazine/260625/retail-future' },
                   ],
                 },
               ],
