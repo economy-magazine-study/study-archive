@@ -189,6 +189,7 @@ export default defineConfig({
                 { label: '4주차 개요', slug: 'gen-4/week-04-2026-06-25' },
                 { label: '윤혜상', slug: 'gen-4/week-04-2026-06-25/yun-hyesang' },
                 { label: '강유리', slug: 'gen-4/week-04-2026-06-25/yuri-kang' },
+                { label: '조수진', slug: 'gen-4/week-04-2026-06-25/sujin' },
               ],
             },
           ],
