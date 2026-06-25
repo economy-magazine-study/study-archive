@@ -169,7 +169,7 @@ export default defineConfig({
             },
             {
               label: '3주차 (2026-06-17)',
-              collapsed: false,
+              collapsed: true,
               items: [
                 { label: '3주차 개요', slug: 'gen-4/week-03-2026-06-17' },
                 { label: '박선희', slug: 'gen-4/week-03-2026-06-17/park-sunhee' },
