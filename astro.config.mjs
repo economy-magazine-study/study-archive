@@ -104,36 +104,6 @@ export default defineConfig({
                   collapsed: true,
                   items: [
                     { label: '개요', slug: 'study-leader/economy-magazine/260701' },
-                    {
-                      label: '[하마터면] Chapter 3. 분양을 통한 새 집 장만',
-                      collapsed: true,
-                      items: [
-                        { label: '1. 주택청약종합저축', slug: 'study-leader/economy-magazine/260701/subscription-savings' },
-                        { label: '2. 청년 우대형 청약저축', slug: 'study-leader/economy-magazine/260701/youth-subscription' },
-                        { label: '3. 청약가점제', slug: 'study-leader/economy-magazine/260701/subscription-score' },
-                        { label: '4. 조정대상지역', slug: 'study-leader/economy-magazine/260701/regulated-area' },
-                        { label: '5. 투기과열지구', slug: 'study-leader/economy-magazine/260701/speculative-area' },
-                        { label: '6. 투기지역', slug: 'study-leader/economy-magazine/260701/speculation-zone' },
-                        { label: '7. 중도금 집단대출', slug: 'study-leader/economy-magazine/260701/midterm-loan' },
-                        { label: '8. 분양광고 맹신금지', slug: 'study-leader/economy-magazine/260701/ad-warning' },
-                        { label: '9. 분양공고 챙겨볼 것들', slug: 'study-leader/economy-magazine/260701/announcement-checklist' },
-                        { label: '10. 모델하우스 챙겨볼 것들', slug: 'study-leader/economy-magazine/260701/modelhouse-checklist' },
-                        { label: '11. 분양가상한제', slug: 'study-leader/economy-magazine/260701/price-cap' },
-                        { label: '12. 믿을 수 있는 시공사 확인', slug: 'study-leader/economy-magazine/260701/contractor-check' },
-                        { label: '13. 분양가격 거품 진단', slug: 'study-leader/economy-magazine/260701/price-bubble' },
-                        { label: '14. 기반시설 직접 따져보기', slug: 'study-leader/economy-magazine/260701/infrastructure-check' },
-                      ],
-                    },
-                    {
-                      label: '[매경이코노미 2364] 부동산',
-                      collapsed: true,
-                      items: [
-                        { label: '[매경] 한강벨트 표심', slug: 'study-leader/economy-magazine/260701/hangang-belt' },
-                        { label: '[매경] 청년 주거 사다리', slug: 'study-leader/economy-magazine/260701/youth-housing' },
-                        { label: '[매경] 압여목성 재건축·강북 재개발', slug: 'study-leader/economy-magazine/260701/redevelopment' },
-                        { label: '[매경] 공공·민간 공급 확대', slug: 'study-leader/economy-magazine/260701/housing-supply' },
-                      ],
-                    },
                   ],
                 },
                 {
