@@ -101,13 +101,6 @@ export default defineConfig({
                   ],
                 },
                 {
-                  label: '260701 부동산',
-                  collapsed: true,
-                  items: [
-                    { label: '개요', slug: 'study-leader/economy-magazine/260701' },
-                  ],
-                },
-                {
                   label: '260625 금리인상·리테일머니',
                   collapsed: true,
                   items: [
