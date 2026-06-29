@@ -122,6 +122,13 @@ export default defineConfig({
                     { label: '[매경] 리테일 머니의 미래', slug: 'study-leader/economy-magazine/260625/retail-future' },
                   ],
                 },
+                {
+                  label: '260701 부동산',
+                  collapsed: true,
+                  items: [
+                    { label: '개요', slug: 'study-leader/economy-magazine/260701' },
+                  ],
+                },
               ],
             },
             { label: '거시경제', slug: 'study-leader/macro-economy' },
