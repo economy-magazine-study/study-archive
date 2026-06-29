@@ -216,6 +216,7 @@ export default defineConfig({
                     { label: '오세훈 5대 부동산 정책', slug: 'gen-4/week-05-2026-07-01/yun-hyesang/housing-policy' },
                   ],
                 },
+                { label: '서혜인', slug: 'gen-4/week-05-2026-07-01/seo-hyein' },
               ],
             },
           ],
