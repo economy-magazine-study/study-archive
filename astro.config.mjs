@@ -202,6 +202,21 @@ export default defineConfig({
                 { label: '김요욱', slug: 'gen-4/week-04-2026-06-25/kim-yowook' },
               ],
             },
+            {
+              label: '5주차 (2026-07-01)',
+              collapsed: false,
+              items: [
+                { label: '5주차 개요', slug: 'gen-4/week-05-2026-07-01' },
+                {
+                  label: '윤혜상',
+                  collapsed: false,
+                  items: [
+                    { label: '보유세·한강벨트 표심', slug: 'gen-4/week-05-2026-07-01/yun-hyesang/property-tax' },
+                    { label: '오세훈 5대 부동산 정책', slug: 'gen-4/week-05-2026-07-01/yun-hyesang/housing-policy' },
+                  ],
+                },
+              ],
+            },
           ],
         },
         {
