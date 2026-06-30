@@ -123,6 +123,7 @@ export default defineConfig({
                     { label: '개요', slug: 'study-leader/economy-magazine/260701' },
                     { label: '[매경] 한강벨트 표심·보유세 조절', slug: 'study-leader/economy-magazine/260701/hangang-belt' },
                     { label: '[매경] 오세훈 5대 부동산 정책', slug: 'study-leader/economy-magazine/260701/seoul-housing-policy' },
+                    { label: '[매경] 연말까지 집값 상승·수혜지', slug: 'study-leader/economy-magazine/260701/housing-outlook' },
                   ],
                 },
               ],
