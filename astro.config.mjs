@@ -137,6 +137,7 @@ export default defineConfig({
                     { label: '3장-01 대출 용어 번역기', slug: 'study-leader/economy-magazine/book-realestate/ch3-01-loan-terms' },
                     { label: '3장-02 정책대출 vs 은행대출', slug: 'study-leader/economy-magazine/book-realestate/ch3-02-policy-loan' },
                     { label: '3장-03 상환 방식·숨은 자금', slug: 'study-leader/economy-magazine/book-realestate/ch3-03-repayment' },
+                    { label: '4장-01 구매 가능 집값 계산법', slug: 'study-leader/economy-magazine/book-realestate/ch4-01-budget' },
                   ],
                 },
               ],
