@@ -121,6 +121,7 @@ export default defineConfig({
                   collapsed: true,
                   items: [
                     { label: '개요', slug: 'study-leader/economy-magazine/260701' },
+                    { label: '[매경] 한강벨트 표심·보유세 조절', slug: 'study-leader/economy-magazine/260701/hangang-belt' },
                   ],
                 },
               ],
