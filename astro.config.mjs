@@ -127,6 +127,14 @@ export default defineConfig({
                     { label: '[매경] 재건축 吳 vs 세금 李', slug: 'study-leader/economy-magazine/260701/oh-vs-lee' },
                   ],
                 },
+                {
+                  label: '[책] 실거주 한 채 샀습니다만',
+                  collapsed: true,
+                  items: [
+                    { label: '책 개요', slug: 'study-leader/economy-magazine/book-realestate' },
+                    { label: '2장-01 가용자금 계산법', slug: 'study-leader/economy-magazine/book-realestate/ch2-01-available-funds' },
+                  ],
+                },
               ],
             },
             { label: '거시경제', slug: 'study-leader/macro-economy' },
