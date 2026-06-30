@@ -235,6 +235,7 @@ export default defineConfig({
                   ],
                 },
                 { label: '서혜인', slug: 'gen-4/week-05-2026-07-01/seo-hyein' },
+                { label: '강유리', slug: 'gen-4/week-05-2026-07-01/yuri-kang' },
               ],
             },
           ],
