@@ -135,6 +135,7 @@ export default defineConfig({
                     { label: '2장-01 가용자금 계산법', slug: 'study-leader/economy-magazine/book-realestate/ch2-01-available-funds' },
                     { label: '2장-02 매매·전세·월세', slug: 'study-leader/economy-magazine/book-realestate/ch2-02-buy-vs-rent' },
                     { label: '3장-01 대출 용어 번역기', slug: 'study-leader/economy-magazine/book-realestate/ch3-01-loan-terms' },
+                    { label: '3장-02 정책대출 vs 은행대출', slug: 'study-leader/economy-magazine/book-realestate/ch3-02-policy-loan' },
                   ],
                 },
               ],
