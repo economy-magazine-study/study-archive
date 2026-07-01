@@ -138,6 +138,7 @@ export default defineConfig({
                     { label: '3장-02 정책대출 vs 은행대출', slug: 'study-leader/economy-magazine/book-realestate/ch3-02-policy-loan' },
                     { label: '3장-03 상환 방식·숨은 자금', slug: 'study-leader/economy-magazine/book-realestate/ch3-03-repayment' },
                     { label: '4장-01 구매 가능 집값 계산법', slug: 'study-leader/economy-magazine/book-realestate/ch4-01-budget' },
+                    { label: '4장-02 호적 상태별 대출 전략', slug: 'study-leader/economy-magazine/book-realestate/ch4-02-household-strategy' },
                   ],
                 },
               ],
