@@ -377,6 +377,7 @@ export default defineConfig({
               collapsed: false,
               items: [
                 { label: '5주차 개요', slug: 'gen-4/week-05-2026-07-01' },
+                { label: '박선희', slug: 'gen-4/week-05-2026-07-01/park-sunhee' },
                 {
                   label: '윤혜상',
                   collapsed: false,
