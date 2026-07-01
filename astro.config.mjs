@@ -411,6 +411,7 @@ export default defineConfig({
                     },
                   ],
                 },
+                { label: '심소연', slug: 'gen-4/week-05-2026-07-01/shim-soyeon' },
               ],
             },
           ],
