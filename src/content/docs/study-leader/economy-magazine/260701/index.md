@@ -1,6 +1,9 @@
 ---
 title: 260701 부동산
 description: 2026년 7월 1일 경제잡지 스터디 — 부동산
+sidebar:
+  label: 260701 부동산
+  order: 1
 ---
 
 ## 다루는 자료
