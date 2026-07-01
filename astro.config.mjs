@@ -69,20 +69,62 @@ export default defineConfig({
                   collapsed: true,
                   items: [
                     { label: '개요', slug: 'study-leader/economy-magazine/260611' },
-                    { label: '[한경] 소부장 현실', slug: 'study-leader/economy-magazine/260611/semi-sobu' },
-                    { label: '[한경] SK실트론 몸값', slug: 'study-leader/economy-magazine/260611/semi-siltron' },
-                    { label: '[한경] 산화공정', slug: 'study-leader/economy-magazine/260611/semi-oxidation' },
-                    { label: '[한경] HBM의 비결', slug: 'study-leader/economy-magazine/260611/semi-hbm' },
-                    { label: '[한경] 식각공정', slug: 'study-leader/economy-magazine/260611/semi-etch' },
-                    { label: '[한경] 증착공정', slug: 'study-leader/economy-magazine/260611/semi-deposition' },
-                    { label: '[한경] 금속배선공정', slug: 'study-leader/economy-magazine/260611/semi-metal' },
-                    { label: '[한경] 테스트공정', slug: 'study-leader/economy-magazine/260611/semi-test' },
-                    { label: '[한경] 패키징공정', slug: 'study-leader/economy-magazine/260611/semi-packaging' },
-                    { label: '[한경] 최태원 전략', slug: 'study-leader/economy-magazine/260611/semi-chey' },
-                    { label: '[매경] K전력기기', slug: 'study-leader/economy-magazine/260611/power-kgrid' },
-                    { label: '[매경] 몸값오른 전력기기', slug: 'study-leader/economy-magazine/260611/power-age' },
-                    { label: '[매경] 그리드 쇼티지', slug: 'study-leader/economy-magazine/260611/power-shortage' },
-                    { label: '[매경] 전력망 패키지', slug: 'study-leader/economy-magazine/260611/power-package' },
+                    {
+                      label: '[한경] 소부장 현실',
+                      slug: 'study-leader/economy-magazine/260611/semi-sobu',
+                    },
+                    {
+                      label: '[한경] SK실트론 몸값',
+                      slug: 'study-leader/economy-magazine/260611/semi-siltron',
+                    },
+                    {
+                      label: '[한경] 산화공정',
+                      slug: 'study-leader/economy-magazine/260611/semi-oxidation',
+                    },
+                    {
+                      label: '[한경] HBM의 비결',
+                      slug: 'study-leader/economy-magazine/260611/semi-hbm',
+                    },
+                    {
+                      label: '[한경] 식각공정',
+                      slug: 'study-leader/economy-magazine/260611/semi-etch',
+                    },
+                    {
+                      label: '[한경] 증착공정',
+                      slug: 'study-leader/economy-magazine/260611/semi-deposition',
+                    },
+                    {
+                      label: '[한경] 금속배선공정',
+                      slug: 'study-leader/economy-magazine/260611/semi-metal',
+                    },
+                    {
+                      label: '[한경] 테스트공정',
+                      slug: 'study-leader/economy-magazine/260611/semi-test',
+                    },
+                    {
+                      label: '[한경] 패키징공정',
+                      slug: 'study-leader/economy-magazine/260611/semi-packaging',
+                    },
+                    {
+                      label: '[한경] 최태원 전략',
+                      slug: 'study-leader/economy-magazine/260611/semi-chey',
+                    },
+                    {
+                      label: '[매경] K전력기기',
+                      slug: 'study-leader/economy-magazine/260611/power-kgrid',
+                    },
+                    {
+                      label: '[매경] 몸값오른 전력기기',
+                      slug: 'study-leader/economy-magazine/260611/power-age',
+                    },
+                    {
+                      label: '[매경] 그리드 쇼티지',
+                      slug: 'study-leader/economy-magazine/260611/power-shortage',
+                    },
+                    {
+                      label: '[매경] 전력망 패키지',
+                      slug: 'study-leader/economy-magazine/260611/power-package',
+                    },
                   ],
                 },
                 {
@@ -90,15 +132,42 @@ export default defineConfig({
                   collapsed: true,
                   items: [
                     { label: '개요', slug: 'study-leader/economy-magazine/260615' },
-                    { label: '[매경] 핵심과 위성 전략', slug: 'study-leader/economy-magazine/260615/core-satellite' },
-                    { label: '[한경] 자본주의 4.0시대', slug: 'study-leader/economy-magazine/260615/capitalism-40' },
-                    { label: '[한경] 안정적 현금흐름 전략', slug: 'study-leader/economy-magazine/260615/cashflow-strategy' },
-                    { label: '[한경] 사이클 읽는 능력', slug: 'study-leader/economy-magazine/260615/cycle-reading' },
-                    { label: '[한경] 외인이 노리는 타이밍', slug: 'study-leader/economy-magazine/260615/foreign-timing' },
-                    { label: '[한경] 돈은 병목으로 흐른다', slug: 'study-leader/economy-magazine/260615/bottleneck-investing' },
-                    { label: '[한경] 공격과 방어의 균형전략', slug: 'study-leader/economy-magazine/260615/balance-strategy' },
-                    { label: '[한경] 전쟁이 키운 비트코인', slug: 'study-leader/economy-magazine/260615/bitcoin-infrastructure' },
-                    { label: '[한경] 제도가 시장을 만든다', slug: 'study-leader/economy-magazine/260615/institution-market' },
+                    {
+                      label: '[매경] 핵심과 위성 전략',
+                      slug: 'study-leader/economy-magazine/260615/core-satellite',
+                    },
+                    {
+                      label: '[한경] 자본주의 4.0시대',
+                      slug: 'study-leader/economy-magazine/260615/capitalism-40',
+                    },
+                    {
+                      label: '[한경] 안정적 현금흐름 전략',
+                      slug: 'study-leader/economy-magazine/260615/cashflow-strategy',
+                    },
+                    {
+                      label: '[한경] 사이클 읽는 능력',
+                      slug: 'study-leader/economy-magazine/260615/cycle-reading',
+                    },
+                    {
+                      label: '[한경] 외인이 노리는 타이밍',
+                      slug: 'study-leader/economy-magazine/260615/foreign-timing',
+                    },
+                    {
+                      label: '[한경] 돈은 병목으로 흐른다',
+                      slug: 'study-leader/economy-magazine/260615/bottleneck-investing',
+                    },
+                    {
+                      label: '[한경] 공격과 방어의 균형전략',
+                      slug: 'study-leader/economy-magazine/260615/balance-strategy',
+                    },
+                    {
+                      label: '[한경] 전쟁이 키운 비트코인',
+                      slug: 'study-leader/economy-magazine/260615/bitcoin-infrastructure',
+                    },
+                    {
+                      label: '[한경] 제도가 시장을 만든다',
+                      slug: 'study-leader/economy-magazine/260615/institution-market',
+                    },
                   ],
                 },
                 {
@@ -106,14 +175,38 @@ export default defineConfig({
                   collapsed: true,
                   items: [
                     { label: '개요', slug: 'study-leader/economy-magazine/260625' },
-                    { label: '[한경] 금리인상의 시간', slug: 'study-leader/economy-magazine/260625/interest-rate-hike' },
-                    { label: '[한경] 금리인상, 증시는 반도체로 버틸 것', slug: 'study-leader/economy-magazine/260625/rate-hike-bill' },
-                    { label: '[한경] 깨진 공식과 새로운 시대', slug: 'study-leader/economy-magazine/260625/broken-formula' },
-                    { label: '[한경] 롯데의 완벽한 부활', slug: 'study-leader/economy-magazine/260625/lotte-revival' },
-                    { label: '[매경] 달라진 돈줄기, 리테일 머니', slug: 'study-leader/economy-magazine/260625/retail-money' },
-                    { label: '[매경] 머니무브 가속, 리테일 런 뇌관', slug: 'study-leader/economy-magazine/260625/money-move' },
-                    { label: '[매경] 힘 세진 개미, 4가지 신풍속도', slug: 'study-leader/economy-magazine/260625/retail-newwave' },
-                    { label: '[매경] 리테일 머니의 미래', slug: 'study-leader/economy-magazine/260625/retail-future' },
+                    {
+                      label: '[한경] 금리인상의 시간',
+                      slug: 'study-leader/economy-magazine/260625/interest-rate-hike',
+                    },
+                    {
+                      label: '[한경] 금리인상, 증시는 반도체로 버틸 것',
+                      slug: 'study-leader/economy-magazine/260625/rate-hike-bill',
+                    },
+                    {
+                      label: '[한경] 깨진 공식과 새로운 시대',
+                      slug: 'study-leader/economy-magazine/260625/broken-formula',
+                    },
+                    {
+                      label: '[한경] 롯데의 완벽한 부활',
+                      slug: 'study-leader/economy-magazine/260625/lotte-revival',
+                    },
+                    {
+                      label: '[매경] 달라진 돈줄기, 리테일 머니',
+                      slug: 'study-leader/economy-magazine/260625/retail-money',
+                    },
+                    {
+                      label: '[매경] 머니무브 가속, 리테일 런 뇌관',
+                      slug: 'study-leader/economy-magazine/260625/money-move',
+                    },
+                    {
+                      label: '[매경] 힘 세진 개미, 4가지 신풍속도',
+                      slug: 'study-leader/economy-magazine/260625/retail-newwave',
+                    },
+                    {
+                      label: '[매경] 리테일 머니의 미래',
+                      slug: 'study-leader/economy-magazine/260625/retail-future',
+                    },
                   ],
                 },
                 {
@@ -121,10 +214,22 @@ export default defineConfig({
                   collapsed: true,
                   items: [
                     { label: '개요', slug: 'study-leader/economy-magazine/260701' },
-                    { label: '[매경] 한강벨트 표심·보유세 조절', slug: 'study-leader/economy-magazine/260701/hangang-belt' },
-                    { label: '[매경] 오세훈 5대 부동산 정책', slug: 'study-leader/economy-magazine/260701/seoul-housing-policy' },
-                    { label: '[매경] 연말까지 집값 상승·수혜지', slug: 'study-leader/economy-magazine/260701/housing-outlook' },
-                    { label: '[매경] 재건축 吳 vs 세금 李', slug: 'study-leader/economy-magazine/260701/oh-vs-lee' },
+                    {
+                      label: '[매경] 한강벨트 표심·보유세 조절',
+                      slug: 'study-leader/economy-magazine/260701/hangang-belt',
+                    },
+                    {
+                      label: '[매경] 오세훈 5대 부동산 정책',
+                      slug: 'study-leader/economy-magazine/260701/seoul-housing-policy',
+                    },
+                    {
+                      label: '[매경] 연말까지 집값 상승·수혜지',
+                      slug: 'study-leader/economy-magazine/260701/housing-outlook',
+                    },
+                    {
+                      label: '[매경] 재건축 吳 vs 세금 李',
+                      slug: 'study-leader/economy-magazine/260701/oh-vs-lee',
+                    },
                   ],
                 },
                 {
@@ -132,13 +237,34 @@ export default defineConfig({
                   collapsed: true,
                   items: [
                     { label: '책 개요', slug: 'study-leader/economy-magazine/book-realestate' },
-                    { label: '2장-01 가용자금 계산법', slug: 'study-leader/economy-magazine/book-realestate/ch2-01-available-funds' },
-                    { label: '2장-02 매매·전세·월세', slug: 'study-leader/economy-magazine/book-realestate/ch2-02-buy-vs-rent' },
-                    { label: '3장-01 대출 용어 번역기', slug: 'study-leader/economy-magazine/book-realestate/ch3-01-loan-terms' },
-                    { label: '3장-02 정책대출 vs 은행대출', slug: 'study-leader/economy-magazine/book-realestate/ch3-02-policy-loan' },
-                    { label: '3장-03 상환 방식·숨은 자금', slug: 'study-leader/economy-magazine/book-realestate/ch3-03-repayment' },
-                    { label: '4장-01 구매 가능 집값 계산법', slug: 'study-leader/economy-magazine/book-realestate/ch4-01-budget' },
-                    { label: '4장-02 호적 상태별 대출 전략', slug: 'study-leader/economy-magazine/book-realestate/ch4-02-household-strategy' },
+                    {
+                      label: '2장-01 가용자금 계산법',
+                      slug: 'study-leader/economy-magazine/book-realestate/ch2-01-available-funds',
+                    },
+                    {
+                      label: '2장-02 매매·전세·월세',
+                      slug: 'study-leader/economy-magazine/book-realestate/ch2-02-buy-vs-rent',
+                    },
+                    {
+                      label: '3장-01 대출 용어 번역기',
+                      slug: 'study-leader/economy-magazine/book-realestate/ch3-01-loan-terms',
+                    },
+                    {
+                      label: '3장-02 정책대출 vs 은행대출',
+                      slug: 'study-leader/economy-magazine/book-realestate/ch3-02-policy-loan',
+                    },
+                    {
+                      label: '3장-03 상환 방식·숨은 자금',
+                      slug: 'study-leader/economy-magazine/book-realestate/ch3-03-repayment',
+                    },
+                    {
+                      label: '4장-01 구매 가능 집값 계산법',
+                      slug: 'study-leader/economy-magazine/book-realestate/ch4-01-budget',
+                    },
+                    {
+                      label: '4장-02 호적 상태별 대출 전략',
+                      slug: 'study-leader/economy-magazine/book-realestate/ch4-02-household-strategy',
+                    },
                   ],
                 },
               ],
@@ -161,24 +287,42 @@ export default defineConfig({
                   label: '서혜인',
                   collapsed: false,
                   items: [
-                    { label: '포토공정', slug: 'gen-4/week-02-2026-06-11/seo-hyein/semiconductor-photo' },
-                    { label: '식각공정', slug: 'gen-4/week-02-2026-06-11/seo-hyein/semiconductor-etching' },
+                    {
+                      label: '포토공정',
+                      slug: 'gen-4/week-02-2026-06-11/seo-hyein/semiconductor-photo',
+                    },
+                    {
+                      label: '식각공정',
+                      slug: 'gen-4/week-02-2026-06-11/seo-hyein/semiconductor-etching',
+                    },
                   ],
                 },
                 {
                   label: '송하영',
                   collapsed: false,
                   items: [
-                    { label: '증착공정', slug: 'gen-4/week-02-2026-06-11/song-hayoung/semiconductor-deposition' },
-                    { label: '금속배선공정', slug: 'gen-4/week-02-2026-06-11/song-hayoung/semiconductor-metal' },
+                    {
+                      label: '증착공정',
+                      slug: 'gen-4/week-02-2026-06-11/song-hayoung/semiconductor-deposition',
+                    },
+                    {
+                      label: '금속배선공정',
+                      slug: 'gen-4/week-02-2026-06-11/song-hayoung/semiconductor-metal',
+                    },
                   ],
                 },
                 {
                   label: '윤혜상',
                   collapsed: false,
                   items: [
-                    { label: '테스트 공정', slug: 'gen-4/week-02-2026-06-11/yun-hyesang/semiconductor-test' },
-                    { label: '패키징 공정', slug: 'gen-4/week-02-2026-06-11/yun-hyesang/semiconductor-packaging' },
+                    {
+                      label: '테스트 공정',
+                      slug: 'gen-4/week-02-2026-06-11/yun-hyesang/semiconductor-test',
+                    },
+                    {
+                      label: '패키징 공정',
+                      slug: 'gen-4/week-02-2026-06-11/yun-hyesang/semiconductor-packaging',
+                    },
                   ],
                 },
                 { label: '현호', slug: 'gen-4/week-02-2026-06-11/hyunho' },
@@ -189,8 +333,14 @@ export default defineConfig({
                   label: 'sunnypark',
                   collapsed: false,
                   items: [
-                    { label: '웨이퍼 (SK실트론)', slug: 'gen-4/week-02-2026-06-11/sunnypark/semiconductor-wafer' },
-                    { label: '산화공정', slug: 'gen-4/week-02-2026-06-11/sunnypark/semiconductor-oxidation' },
+                    {
+                      label: '웨이퍼 (SK실트론)',
+                      slug: 'gen-4/week-02-2026-06-11/sunnypark/semiconductor-wafer',
+                    },
+                    {
+                      label: '산화공정',
+                      slug: 'gen-4/week-02-2026-06-11/sunnypark/semiconductor-oxidation',
+                    },
                   ],
                 },
               ],
@@ -231,8 +381,14 @@ export default defineConfig({
                   label: '윤혜상',
                   collapsed: false,
                   items: [
-                    { label: '보유세·한강벨트 표심', slug: 'gen-4/week-05-2026-07-01/yun-hyesang/property-tax' },
-                    { label: '오세훈 5대 부동산 정책', slug: 'gen-4/week-05-2026-07-01/yun-hyesang/housing-policy' },
+                    {
+                      label: '보유세·한강벨트 표심',
+                      slug: 'gen-4/week-05-2026-07-01/yun-hyesang/property-tax',
+                    },
+                    {
+                      label: '오세훈 5대 부동산 정책',
+                      slug: 'gen-4/week-05-2026-07-01/yun-hyesang/housing-policy',
+                    },
                   ],
                 },
                 { label: '서혜인', slug: 'gen-4/week-05-2026-07-01/seo-hyein' },
@@ -240,6 +396,20 @@ export default defineConfig({
                 { label: '강유리', slug: 'gen-4/week-05-2026-07-01/yuri-kang' },
                 { label: '임현호', slug: 'gen-4/week-05-2026-07-01/hyunho' },
                 { label: '조수진', slug: 'gen-4/week-05-2026-07-01/sujin' },
+                {
+                  label: '송하영',
+                  collapsed: false,
+                  items: [
+                    {
+                      label: '우리 집 좌표 찍기 (구매가능 집값)',
+                      slug: 'gen-4/week-05-2026-07-01/song-hayoung/budget',
+                    },
+                    {
+                      label: '호적 상태별 대출 테크트리',
+                      slug: 'gen-4/week-05-2026-07-01/song-hayoung/household-strategy',
+                    },
+                  ],
+                },
               ],
             },
           ],
