@@ -418,6 +418,14 @@ export default defineConfig({
                 { label: '심소연', slug: 'gen-4/week-05-2026-07-01/shim-soyeon' },
               ],
             },
+            {
+              label: '6주차 (2026-07-09)',
+              collapsed: false,
+              items: [
+                { label: '6주차 개요', slug: 'gen-4/week-06-2026-07-09' },
+                { label: '정나현', slug: 'gen-4/week-06-2026-07-09/jung-nahyun' },
+              ],
+            },
           ],
         },
         {
