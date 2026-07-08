@@ -425,6 +425,7 @@ export default defineConfig({
               items: [
                 { label: '6주차 개요', slug: 'gen-4/week-06-2026-07-09' },
                 { label: '정나현', slug: 'gen-4/week-06-2026-07-09/jung-nahyun' },
+                { label: '강유리', slug: 'gen-4/week-06-2026-07-09/yuri-kang' },
                 {
                   label: '윤혜상',
                   collapsed: false,
