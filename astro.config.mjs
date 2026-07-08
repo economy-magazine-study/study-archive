@@ -426,6 +426,20 @@ export default defineConfig({
                 { label: '6주차 개요', slug: 'gen-4/week-06-2026-07-09' },
                 { label: '정나현', slug: 'gen-4/week-06-2026-07-09/jung-nahyun' },
                 { label: '윤혜상', slug: 'gen-4/week-06-2026-07-09/yun-hyesang' },
+                {
+                  label: '심소연',
+                  collapsed: false,
+                  items: [
+                    {
+                      label: '똘똘한 한 채 탐구',
+                      slug: 'gen-4/week-06-2026-07-09/shim-soyeon/prime-apartment',
+                    },
+                    {
+                      label: '집값 전망과 종잣돈',
+                      slug: 'gen-4/week-06-2026-07-09/shim-soyeon/price-outlook',
+                    },
+                  ],
+                },
               ],
             },
           ],
