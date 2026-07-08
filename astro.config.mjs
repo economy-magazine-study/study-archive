@@ -425,7 +425,14 @@ export default defineConfig({
               items: [
                 { label: '6주차 개요', slug: 'gen-4/week-06-2026-07-09' },
                 { label: '정나현', slug: 'gen-4/week-06-2026-07-09/jung-nahyun' },
-                { label: '윤혜상', slug: 'gen-4/week-06-2026-07-09/yun-hyesang' },
+                {
+                  label: '윤혜상',
+                  collapsed: false,
+                  items: [
+                    { label: '14장 상업용 vs 아파트', slug: 'gen-4/week-06-2026-07-09/yun-hyesang/commercial-vs-apt' },
+                    { label: '15장 매물 비교', slug: 'gen-4/week-06-2026-07-09/yun-hyesang/apt-comparison' },
+                  ],
+                },
                 {
                   label: '심소연',
                   collapsed: false,

@@ -38,8 +38,8 @@ related:
   topics: [부동산, 상업용 부동산, 아파트, 자산배분, 현금흐름]
   pages: [gen-4/week-06-2026-07-09/jung-nahyun]
 sidebar:
-  label: 윤혜상
-  order: 2
+  label: 14장 상업용 vs 아파트
+  order: 1
 ---
 
 ## 상업용 부동산의 본질 — 실거주가 빠지면 남는 건 '현금흐름'
