@@ -36,7 +36,7 @@ entities:
   people: [송희구]
   indicators: [전세가율, 평당가]
 sidebar:
-  label: 똘똘한 한 채 탐구
+  label: 12장 똘똘한 한 채
   order: 1
 ---
 

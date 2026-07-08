@@ -438,11 +438,11 @@ export default defineConfig({
                   collapsed: false,
                   items: [
                     {
-                      label: '똘똘한 한 채 탐구',
+                      label: '12장 똘똘한 한 채',
                       slug: 'gen-4/week-06-2026-07-09/shim-soyeon/prime-apartment',
                     },
                     {
-                      label: '집값 전망과 종잣돈',
+                      label: '13장 집값 전망과 종잣돈',
                       slug: 'gen-4/week-06-2026-07-09/shim-soyeon/price-outlook',
                     },
                   ],

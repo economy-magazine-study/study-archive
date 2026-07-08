@@ -39,7 +39,7 @@ entities:
   people: [송희구]
   indicators: [DSR, DTI, LTV, 종잣돈]
 sidebar:
-  label: 집값 전망과 종잣돈
+  label: 13장 집값 전망과 종잣돈
   order: 2
 ---
 
