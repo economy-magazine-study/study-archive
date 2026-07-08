@@ -427,6 +427,14 @@ export default defineConfig({
                 { label: '정나현', slug: 'gen-4/week-06-2026-07-09/jung-nahyun' },
                 { label: '강유리', slug: 'gen-4/week-06-2026-07-09/yuri-kang' },
                 {
+                  label: '송하영',
+                  collapsed: false,
+                  items: [
+                    { label: '10장 보라, 스스로 움직이다', slug: 'gen-4/week-06-2026-07-09/song-hayoung/self-driven' },
+                    { label: '11장 보라, 부동산에 가다', slug: 'gen-4/week-06-2026-07-09/song-hayoung/visit-agency' },
+                  ],
+                },
+                {
                   label: '윤혜상',
                   collapsed: false,
                   items: [

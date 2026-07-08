@@ -13,6 +13,8 @@ sidebar:
 | 1    | 정나현 | 나의 첫 번째 부동산 교과서 | [문서 보기](./jung-nahyun/)   |
 | 2    | 윤혜상 | 시간이 만드는 이익을 탐하다 · 같은 지역 아파트 매물 비교 (14·15장) | [14장](./yun-hyesang/commercial-vs-apt/) · [15장](./yun-hyesang/apt-comparison/) |
 | 3    | 강유리 | 임장으로 배우는 아파트 시세의 비밀 — 로얄동·로얄층·분양권 (도서) | [문서 보기](./yuri-kang/) |
+| 4-1  | 송하영 | 보라, 스스로 움직이다 (10장) | [문서 보기](./song-hayoung/self-driven/) |
+| 4-2  | 송하영 | 보라, 부동산에 가다 (11장) | [문서 보기](./song-hayoung/visit-agency/) |
 | 6-1  | 심소연 | 똘똘한 한 채를 탐구하다 (도서) | [문서 보기](./shim-soyeon/prime-apartment/) |
 | 6-2  | 심소연 | 이 집, 얼마나 더 오를까요? (도서) | [문서 보기](./shim-soyeon/price-outlook/) |
 
