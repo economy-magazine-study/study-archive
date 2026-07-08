@@ -15,6 +15,8 @@ sidebar:
 | 3    | 강유리 | 임장으로 배우는 아파트 시세의 비밀 — 로얄동·로얄층·분양권 (도서) | [문서 보기](./yuri-kang/) |
 | 4-1  | 송하영 | 보라, 스스로 움직이다 (10장) | [문서 보기](./song-hayoung/self-driven/) |
 | 4-2  | 송하영 | 보라, 부동산에 가다 (11장) | [문서 보기](./song-hayoung/visit-agency/) |
+| 5-1  | 김요욱 | 실전 매수의 기본기 (16장) | [문서 보기](./kim-yowook/practical-buying-basics/) |
+| 5-2  | 김요욱 | 재개발과 재건축의 기본 개념 (17장) | [문서 보기](./kim-yowook/redevelopment-reconstruction/) |
 | 6-1  | 심소연 | 똘똘한 한 채를 탐구하다 (도서) | [문서 보기](./shim-soyeon/prime-apartment/) |
 | 6-2  | 심소연 | 이 집, 얼마나 더 오를까요? (도서) | [문서 보기](./shim-soyeon/price-outlook/) |
 

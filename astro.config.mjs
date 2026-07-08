@@ -443,6 +443,20 @@ export default defineConfig({
                   ],
                 },
                 {
+                  label: '김요욱',
+                  collapsed: false,
+                  items: [
+                    {
+                      label: '16장 실전 매수의 기본기',
+                      slug: 'gen-4/week-06-2026-07-09/kim-yowook/practical-buying-basics',
+                    },
+                    {
+                      label: '17장 재개발·재건축',
+                      slug: 'gen-4/week-06-2026-07-09/kim-yowook/redevelopment-reconstruction',
+                    },
+                  ],
+                },
+                {
                   label: '심소연',
                   collapsed: false,
                   items: [
