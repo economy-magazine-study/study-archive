@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 310" width="680" height="310" font-family="'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif">
+  <rect width="680" height="310" fill="#ffffff" rx="8"/>
+  <text x="340" y="28" text-anchor="middle" font-size="14" font-weight="600" fill="#111827">④ 미분양 추이 (예시)</text>
+  <!-- Y labels -->
+  <text x="52" y="68" text-anchor="end" font-size="11" fill="#6b7280">8만</text>
+  <text x="52" y="108" text-anchor="end" font-size="11" fill="#6b7280">6만</text>
+  <text x="52" y="148" text-anchor="end" font-size="11" fill="#6b7280">4만</text>
+  <text x="52" y="188" text-anchor="end" font-size="11" fill="#6b7280">2만</text>
+  <!-- Grid -->
+  <line x1="60" y1="65" x2="620" y2="65" stroke="#f3f4f6" stroke-width="1"/>
+  <line x1="60" y1="105" x2="620" y2="105" stroke="#f3f4f6" stroke-width="1"/>
+  <line x1="60" y1="145" x2="620" y2="145" stroke="#f3f4f6" stroke-width="1"/>
+  <line x1="60" y1="185" x2="620" y2="185" stroke="#f3f4f6" stroke-width="1"/>
+  <line x1="60" y1="245" x2="620" y2="245" stroke="#d1d5db" stroke-width="1"/>
+  <line x1="60" y1="50" x2="60" y2="245" stroke="#d1d5db" stroke-width="1"/>
+  <!-- 8 quarters scale: 0=245, 8만=65; per만=22.5px -->
+  <!-- 전체 미분양: 3만,4만,6만,7.5만,7만,5만,4만,3.5만 -->
+  <!-- y: 3만=177, 4만=155, 6만=110, 7.5만=77, 7만=87, 5만=132, 4만=155, 3.5만=166 -->
+  <!-- 준공 후 미분양: 0.3만,0.4만,0.7만,1.2만,1.8만,2.2만,2.5만,2.8만 -->
+  <!-- y: 0.3만=238, 0.4만=236, 0.7만=229, 1.2만=218, 1.8만=204, 2.2만=195, 2.5만=189, 2.8만=182 -->
+  <!-- x positions for 8 quarters: 100,180,260,340,420,500,560,610 → equally spaced 60+70*i -->
+  <!-- x: 100,170,240,310,380,450,520,590 -->
+  <!-- Bars (전체 미분양, light gray-blue) -->
+  <rect x="76" y="177" width="48" height="68" fill="#bfdbfe" rx="2"/>
+  <rect x="146" y="155" width="48" height="90" fill="#bfdbfe" rx="2"/>
+  <rect x="216" y="110" width="48" height="135" fill="#bfdbfe" rx="2"/>
+  <rect x="286" y="77" width="48" height="168" fill="#bfdbfe" rx="2"/>
+  <rect x="356" y="87" width="48" height="158" fill="#bfdbfe" rx="2"/>
+  <rect x="426" y="132" width="48" height="113" fill="#bfdbfe" rx="2"/>
+  <rect x="496" y="155" width="48" height="90" fill="#bfdbfe" rx="2"/>
+  <rect x="566" y="166" width="48" height="79" fill="#bfdbfe" rx="2"/>
+  <!-- 준공 후 미분양 line (red) — rising even as total falls -->
+  <polyline points="100,238 170,236 240,229 310,218 380,204 450,195 520,189 590,182"
+    fill="none" stroke="#ef4444" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+  <circle cx="100" cy="238" r="4" fill="#ef4444"/>
+  <circle cx="170" cy="236" r="4" fill="#ef4444"/>
+  <circle cx="240" cy="229" r="4" fill="#ef4444"/>
+  <circle cx="310" cy="218" r="4" fill="#ef4444"/>
+  <circle cx="380" cy="204" r="4" fill="#ef4444"/>
+  <circle cx="450" cy="195" r="4" fill="#ef4444"/>
+  <circle cx="520" cy="189" r="4" fill="#ef4444"/>
+  <circle cx="590" cy="182" r="4" fill="#ef4444"/>
+  <!-- Annotation -->
+  <rect x="440" y="95" width="170" height="38" rx="4" fill="#fef2f2" stroke="#fca5a5" stroke-width="1"/>
+  <text x="525" y="110" text-anchor="middle" font-size="10" fill="#dc2626">전체↓ 준공후↑ = 악성미분양</text>
+  <text x="525" y="124" text-anchor="middle" font-size="10" fill="#dc2626">쌓이는 중 → 해당지역 유의</text>
+  <!-- Arrow pointing to line -->
+  <line x1="530" y1="133" x2="530" y2="185" stroke="#dc2626" stroke-width="1" stroke-dasharray="3,3"/>
+  <!-- X labels -->
+  <text x="100" y="263" text-anchor="middle" font-size="10" fill="#6b7280">21Q1</text>
+  <text x="170" y="263" text-anchor="middle" font-size="10" fill="#6b7280">Q2</text>
+  <text x="240" y="263" text-anchor="middle" font-size="10" fill="#6b7280">Q3</text>
+  <text x="310" y="263" text-anchor="middle" font-size="10" fill="#6b7280">Q4</text>
+  <text x="380" y="263" text-anchor="middle" font-size="10" fill="#6b7280">22Q1</text>
+  <text x="450" y="263" text-anchor="middle" font-size="10" fill="#6b7280">Q2</text>
+  <text x="520" y="263" text-anchor="middle" font-size="10" fill="#6b7280">Q3</text>
+  <text x="590" y="263" text-anchor="middle" font-size="10" fill="#6b7280">Q4</text>
+  <!-- Legend -->
+  <rect x="160" y="283" width="14" height="10" fill="#bfdbfe" rx="2"/>
+  <text x="178" y="293" font-size="11" fill="#374151">전체 미분양 (호)</text>
+  <line x1="360" y1="288" x2="380" y2="288" stroke="#ef4444" stroke-width="2.5"/>
+  <circle cx="370" cy="288" r="4" fill="#ef4444"/>
+  <text x="386" y="293" font-size="11" fill="#374151">준공 후 미분양 (악성)</text>
+</svg>

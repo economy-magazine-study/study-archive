@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 300" width="680" height="300" font-family="'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif">
+  <rect width="680" height="300" fill="#ffffff" rx="8"/>
+  <text x="340" y="28" text-anchor="middle" font-size="14" font-weight="600" fill="#111827">② 매물 증감 추이 (예시)</text>
+  <!-- Y axis labels -->
+  <text x="52" y="68" text-anchor="end" font-size="11" fill="#6b7280">500</text>
+  <text x="52" y="108" text-anchor="end" font-size="11" fill="#6b7280">400</text>
+  <text x="52" y="148" text-anchor="end" font-size="11" fill="#6b7280">300</text>
+  <text x="52" y="188" text-anchor="end" font-size="11" fill="#6b7280">200</text>
+  <text x="52" y="228" text-anchor="end" font-size="11" fill="#6b7280">100</text>
+  <text x="18" y="148" text-anchor="middle" font-size="10" fill="#9ca3af" transform="rotate(-90,18,148)">매물 수 (건)</text>
+  <!-- Grid -->
+  <line x1="60" y1="65" x2="620" y2="65" stroke="#f3f4f6" stroke-width="1"/>
+  <line x1="60" y1="105" x2="620" y2="105" stroke="#f3f4f6" stroke-width="1"/>
+  <line x1="60" y1="145" x2="620" y2="145" stroke="#f3f4f6" stroke-width="1"/>
+  <line x1="60" y1="185" x2="620" y2="185" stroke="#f3f4f6" stroke-width="1"/>
+  <line x1="60" y1="225" x2="620" y2="225" stroke="#f3f4f6" stroke-width="1"/>
+  <line x1="60" y1="245" x2="620" y2="245" stroke="#d1d5db" stroke-width="1"/>
+  <line x1="60" y1="50" x2="60" y2="245" stroke="#d1d5db" stroke-width="1"/>
+  <!-- Area fill under line (매도자 우위 구간: 녹색, 매수자 우위: 오렌지) -->
+  <!-- scale: 100=225, 500=65; 1unit=0.4px -->
+  <!-- weekly data points (18 weeks): 480,455,430,400,370,340,310,275,240,210,185,170,165,175,200,240,290,350 -->
+  <!-- x: 60 to 620, 18 points, step ~31 -->
+  <defs>
+    <linearGradient id="listGrad1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#d1fae5" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#d1fae5" stop-opacity="0.1"/>
+    </linearGradient>
+  </defs>
+  <!-- filled area: seller market zone (falling) -->
+  <polygon points="60,53 91,63 122,77 153,93 184,109 215,125 246,141 277,161 308,181 339,201 370,217 401,225 432,227 463,221 60,245"
+    fill="url(#listGrad1)" opacity="0.6"/>
+  <!-- rising zone fill (orange) -->
+  <polygon points="463,221 494,205 525,181 556,153 587,121 620,85 620,245 463,245"
+    fill="#fed7aa" opacity="0.4"/>
+  <!-- Line -->
+  <polyline points="60,53 91,63 122,77 153,93 184,109 215,125 246,141 277,161 308,181 339,201 370,217 401,225 432,227 463,221 494,205 525,181 556,153 587,121 620,85"
+    fill="none" stroke="#10b981" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+  <!-- Dots -->
+  <circle cx="60" cy="53" r="3.5" fill="#10b981"/>
+  <circle cx="432" cy="227" r="5" fill="#10b981" stroke="#fff" stroke-width="1.5"/>
+  <circle cx="620" cy="85" r="3.5" fill="#f97316"/>
+  <!-- Bottom label at trough -->
+  <text x="432" y="248" text-anchor="middle" font-size="10" fill="#10b981" font-weight="600">바닥</text>
+  <!-- Annotations -->
+  <text x="200" y="82" font-size="11" fill="#059669" font-weight="500">매물 감소 → 매도자 우위</text>
+  <text x="510" y="168" font-size="11" fill="#ea580c" font-weight="500">매물 증가 → 매수심리 둔화</text>
+  <!-- X labels (every 3 weeks) -->
+  <text x="60" y="263" text-anchor="middle" font-size="10" fill="#6b7280">1주</text>
+  <text x="153" y="263" text-anchor="middle" font-size="10" fill="#6b7280">4주</text>
+  <text x="246" y="263" text-anchor="middle" font-size="10" fill="#6b7280">7주</text>
+  <text x="339" y="263" text-anchor="middle" font-size="10" fill="#6b7280">10주</text>
+  <text x="432" y="263" text-anchor="middle" font-size="10" fill="#6b7280">13주</text>
+  <text x="525" y="263" text-anchor="middle" font-size="10" fill="#6b7280">16주</text>
+  <text x="620" y="263" text-anchor="middle" font-size="10" fill="#6b7280">18주</text>
+  <!-- Legend -->
+  <line x1="240" y1="285" x2="260" y2="285" stroke="#10b981" stroke-width="2.5"/>
+  <circle cx="250" cy="285" r="3.5" fill="#10b981"/>
+  <text x="265" y="289" font-size="11" fill="#374151">주간 매물 수 (건)</text>
+</svg>

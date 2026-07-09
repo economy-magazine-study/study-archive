@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 320" width="680" height="320" font-family="'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif">
+  <rect width="680" height="320" fill="#ffffff" rx="8"/>
+  <text x="340" y="28" text-anchor="middle" font-size="14" font-weight="600" fill="#111827">③ 매매가·전세가·전세가율 추이 (예시)</text>
+  <!-- Left Y axis labels (가격) -->
+  <text x="52" y="68" text-anchor="end" font-size="11" fill="#6b7280">9억</text>
+  <text x="52" y="108" text-anchor="end" font-size="11" fill="#6b7280">7억</text>
+  <text x="52" y="148" text-anchor="end" font-size="11" fill="#6b7280">5억</text>
+  <text x="52" y="188" text-anchor="end" font-size="11" fill="#6b7280">3억</text>
+  <!-- Right Y axis labels (전세가율 %) -->
+  <text x="628" y="68" text-anchor="start" font-size="11" fill="#6b7280">90%</text>
+  <text x="628" y="108" text-anchor="start" font-size="11" fill="#6b7280">75%</text>
+  <text x="628" y="148" text-anchor="start" font-size="11" fill="#6b7280">60%</text>
+  <text x="628" y="188" text-anchor="start" font-size="11" fill="#6b7280">45%</text>
+  <text x="628" y="228" text-anchor="start" font-size="11" fill="#6b7280">30%</text>
+  <!-- Grid -->
+  <line x1="60" y1="65" x2="620" y2="65" stroke="#f3f4f6" stroke-width="1"/>
+  <line x1="60" y1="105" x2="620" y2="105" stroke="#f3f4f6" stroke-width="1"/>
+  <line x1="60" y1="145" x2="620" y2="145" stroke="#f3f4f6" stroke-width="1"/>
+  <line x1="60" y1="185" x2="620" y2="185" stroke="#f3f4f6" stroke-width="1"/>
+  <line x1="60" y1="225" x2="620" y2="225" stroke="#f3f4f6" stroke-width="1"/>
+  <line x1="60" y1="245" x2="620" y2="245" stroke="#d1d5db" stroke-width="1"/>
+  <line x1="60" y1="50" x2="60" y2="245" stroke="#d1d5db" stroke-width="1"/>
+  <!-- 12 months, x positions: 84,130,176,222,268,314,360,406,452,498,544,590 -->
+  <!-- Scale: 3억=225, 9억=65; per억=26.7px -->
+  <!-- 매매가: 4→4.5→5→5.5→6.2→7→7.8→8.5→8.8→8.6→8.3→8.5억 -->
+  <!-- 전세가: 3.4→3.6→3.8→4.0→4.2→4.4→4.5→4.6→4.6→4.5→4.4→4.5억 -->
+  <!-- 전세가율 scale: 30%=225, 90%=65; per%=2.67px -->
+  <!-- rates: 85%→80%→76%→73%→68%→63%→58%→54%→52%→52%→53%→53% -->
+  <!-- 매매가 y: 4억=(225-26.7)=198, 9억=65 -->
+  <!-- 4억:198, 4.5억:185, 5억:171, 5.5억:158, 6.2억:140, 7억:119, 7.8억:97, 8.5억:78, 8.8억:70, 8.6억:76, 8.3억:84, 8.5억:78 -->
+  <!-- 전세가 y: 3.4억:207, 3.6억:201, 3.8억:196, 4억:190, 4.2억:184, 4.4억:179, 4.5억:176, 4.6억:173, 4.6억:173, 4.5억:176, 4.4억:179, 4.5억:176 -->
+  <!-- 전세가율 y: 85%=65+(90-85)*2.67=78, 80%=65+(90-80)*2.67=92, 76%=103, 73%=111, 68%=124, 63%=138, 58%=152, 54%=163, 52%=168, 52%=168, 53%=165, 53%=165 -->
+  <!-- 매매가 (빨간 선) -->
+  <polyline points="84,198 130,185 176,171 222,158 268,140 314,119 360,97 406,78 452,70 498,76 544,84 590,78"
+    fill="none" stroke="#ef4444" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+  <!-- 전세가 (파란 선) -->
+  <polyline points="84,207 130,201 176,196 222,190 268,184 314,179 360,176 406,173 452,173 498,176 544,179 590,176"
+    fill="none" stroke="#3b82f6" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+  <!-- 전세가율 (회색 점선) -->
+  <polyline points="84,78 130,92 176,103 222,111 268,124 314,138 360,152 406,163 452,168 498,168 544,165 590,165"
+    fill="none" stroke="#9ca3af" stroke-width="2" stroke-dasharray="6,4" stroke-linejoin="round" stroke-linecap="round"/>
+  <!-- Dots -->
+  <circle cx="84" cy="198" r="3.5" fill="#ef4444"/>
+  <circle cx="590" cy="78" r="3.5" fill="#ef4444"/>
+  <circle cx="84" cy="207" r="3.5" fill="#3b82f6"/>
+  <circle cx="590" cy="176" r="3.5" fill="#3b82f6"/>
+  <!-- Annotation: 거품 구간 -->
+  <rect x="290" y="55" width="130" height="30" rx="4" fill="#fef2f2" stroke="#fca5a5" stroke-width="1"/>
+  <text x="355" y="70" text-anchor="middle" font-size="10" fill="#dc2626">매매가↑ 전세가율↓</text>
+  <text x="355" y="82" text-anchor="middle" font-size="10" fill="#dc2626">→ 거품 가능성</text>
+  <!-- X labels -->
+  <text x="84" y="263" text-anchor="middle" font-size="10" fill="#6b7280">1월</text>
+  <text x="176" y="263" text-anchor="middle" font-size="10" fill="#6b7280">3월</text>
+  <text x="268" y="263" text-anchor="middle" font-size="10" fill="#6b7280">5월</text>
+  <text x="360" y="263" text-anchor="middle" font-size="10" fill="#6b7280">7월</text>
+  <text x="452" y="263" text-anchor="middle" font-size="10" fill="#6b7280">9월</text>
+  <text x="544" y="263" text-anchor="middle" font-size="10" fill="#6b7280">11월</text>
+  <!-- Legend -->
+  <line x1="100" y1="290" x2="120" y2="290" stroke="#ef4444" stroke-width="2.5"/>
+  <text x="125" y="294" font-size="11" fill="#374151">매매가</text>
+  <line x1="210" y1="290" x2="230" y2="290" stroke="#3b82f6" stroke-width="2.5"/>
+  <text x="235" y="294" font-size="11" fill="#374151">전세가</text>
+  <line x1="330" y1="290" x2="350" y2="290" stroke="#9ca3af" stroke-width="2" stroke-dasharray="6,4"/>
+  <text x="355" y="294" font-size="11" fill="#374151">전세가율 (우축 %)</text>
+</svg>
