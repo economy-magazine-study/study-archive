@@ -19,6 +19,8 @@ sidebar:
 | 5-2  | 김요욱 | 재개발과 재건축의 기본 개념 (17장) | [문서 보기](./kim-yowook/redevelopment-reconstruction/) |
 | 6-1  | 심소연 | 똘똘한 한 채를 탐구하다 (도서) | [문서 보기](./shim-soyeon/prime-apartment/) |
 | 6-2  | 심소연 | 이 집, 얼마나 더 오를까요? (도서) | [문서 보기](./shim-soyeon/price-outlook/) |
+| 7-1  | 조수진 | 재건축 수익의 핵심과 합법적 절세 (도서 부록) | [문서 보기](./sujin/redevelopment-and-tax-saving/) |
+| 7-2  | 조수진 | 안전한 계약 진행 준비 및 하락장 전략 (도서 부록) | [문서 보기](./sujin/safe-contract-and-downturn/) |
 
 ## 진행 메모
 
