@@ -963,4 +963,93 @@ sidebar:
   </tbody>
 </table>
 
+![회복탄력성](/study-archive/images/gen-4/week-06/resilience.png)
+
+## 7. 이 집 얼마나 더 오를까요?
+
+### (1) 정부 규제의 역설
+
+<table style="border-collapse:collapse; font-size:0.85em; max-width:820px; margin:0.5em 0;">
+  <thead>
+    <tr>
+      <th style="border:1px solid #999; padding:4px 8px; white-space:nowrap; text-align:left;">항목</th>
+      <th style="border:1px solid #999; padding:4px 8px; text-align:left;">내용</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border:1px solid #999; padding:4px 8px; white-space:nowrap;">역설</td>
+      <td style="border:1px solid #999; padding:4px 8px;">규제가 시작되면 오히려 <strong>규제 지역의 가치를 정부가 인정했다는 인식</strong>이 퍼짐 → 값이 유지·상승하거나 주변 지역으로 자본이 이동함.</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #999; padding:4px 8px; white-space:nowrap;">결론</td>
+      <td style="border:1px solid #999; padding:4px 8px;">집값은 규제로 억제되지 않음. 자본은 <strong>규제가 덜하고 기회가 있는 곳</strong>으로 자연스럽게 이동함.</td>
+    </tr>
+  </tbody>
+</table>
+
+### (2) 내 집 마련의 자본금
+
+<table style="border-collapse:collapse; font-size:0.85em; max-width:820px; margin:0.5em 0;">
+  <thead>
+    <tr>
+      <th style="border:1px solid #999; padding:4px 8px; white-space:nowrap; text-align:left;">항목</th>
+      <th style="border:1px solid #999; padding:4px 8px; text-align:left;">내용</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border:1px solid #999; padding:4px 8px; white-space:nowrap;">종잣돈</td>
+      <td style="border:1px solid #999; padding:4px 8px;">시장에 들어갈 수 있는 <strong>최소한의 자격</strong> (예: 10억짜리 집을 사려면 최소 4억의 현금은 있어야 시작할 수 있음).</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #999; padding:4px 8px; white-space:nowrap;">소득</td>
+      <td style="border:1px solid #999; padding:4px 8px;">대출(레버리지)을 얼마나 끌어올 수 있는지를 결정함 (DSR, DTI 지표 등).</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #999; padding:4px 8px; white-space:nowrap;">핵심</td>
+      <td style="border:1px solid #999; padding:4px 8px;">종잣돈을 늘리는 것만큼이나, <strong>대출 한도를 확보할 수 있는 환경</strong>을 갖추는 것도 중요함.</td>
+    </tr>
+  </tbody>
+</table>
+
+### (3) 집값은 얼마나 더 오를까?
+
+<table style="border-collapse:collapse; font-size:0.85em; max-width:820px; margin:0.5em 0;">
+  <thead>
+    <tr>
+      <th style="border:1px solid #999; padding:4px 8px; white-space:nowrap; text-align:left;">항목</th>
+      <th style="border:1px solid #999; padding:4px 8px; text-align:left;">내용</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border:1px solid #999; padding:4px 8px; white-space:nowrap;">맥모닝의 법칙</td>
+      <td style="border:1px solid #999; padding:4px 8px;">햄버거는 크기에 따라 포만감을 예측할 수 있지만, 부동산은 <strong>정책·심리·경제가 얽혀 있어 본질적으로 예측이 불가능함</strong>.</td>
+    </tr>
+  </tbody>
+</table>
+
+### (4) 부동산 자산의 핵심
+
+<table style="border-collapse:collapse; font-size:0.85em; max-width:820px; margin:0.5em 0;">
+  <thead>
+    <tr>
+      <th style="border:1px solid #999; padding:4px 8px; white-space:nowrap; text-align:left;">항목</th>
+      <th style="border:1px solid #999; padding:4px 8px; text-align:left;">내용</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border:1px solid #999; padding:4px 8px; white-space:nowrap;">핵심</td>
+      <td style="border:1px solid #999; padding:4px 8px;"><strong>상급지와의 격차를 줄여나갈 수 있는 입지와 상품</strong>을 선별하는 것.</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #999; padding:4px 8px; white-space:nowrap;">수익률의 함정</td>
+      <td style="border:1px solid #999; padding:4px 8px;">부동산 투자는 수익률이 아닌 <strong>'금액'</strong>으로 결정됨. 수익률이 높은 것보다 <strong>'상급지로 갈 수 있는 조건이 되었는가'</strong>가 핵심임.</td>
+    </tr>
+  </tbody>
+</table>
+
+
 
