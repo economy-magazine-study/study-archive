@@ -471,6 +471,20 @@ export default defineConfig({
                     },
                   ],
                 },
+                {
+                  label: '조수진',
+                  collapsed: false,
+                  items: [
+                    {
+                      label: '재건축 수익·절세',
+                      slug: 'gen-4/week-06-2026-07-09/sujin/redevelopment-and-tax-saving',
+                    },
+                    {
+                      label: '안전한 계약·하락장',
+                      slug: 'gen-4/week-06-2026-07-09/sujin/safe-contract-and-downturn',
+                    },
+                  ],
+                },
               ],
             },
           ],
