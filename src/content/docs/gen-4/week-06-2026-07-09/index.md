@@ -21,6 +21,7 @@ sidebar:
 | 6-2  | 심소연 | 이 집, 얼마나 더 오를까요? (도서) | [문서 보기](./shim-soyeon/price-outlook/) |
 | 7-1  | 조수진 | 재건축 수익의 핵심과 합법적 절세 (도서 부록) | [문서 보기](./sujin/redevelopment-and-tax-saving/) |
 | 7-2  | 조수진 | 안전한 계약 진행 준비 및 하락장 전략 (도서 부록) | [문서 보기](./sujin/safe-contract-and-downturn/) |
+| 8    | 박선희 | 초보라 노트 요약 및 부동산 지표 조회 가이드 (도서) | [문서 보기](./park-sunhee/) |
 
 ## 진행 메모
 

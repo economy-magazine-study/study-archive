@@ -498,6 +498,16 @@ export default defineConfig({
                     },
                   ],
                 },
+                {
+                  label: '박선희',
+                  collapsed: false,
+                  items: [
+                    {
+                      label: '초보라 노트 요약 & 지표 조회',
+                      slug: 'gen-4/week-06-2026-07-09/park-sunhee',
+                    },
+                  ],
+                },
               ],
             },
           ],
