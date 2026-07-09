@@ -738,3 +738,229 @@ sidebar:
   </tbody>
 </table>
 
+## 5. 집을 언제 사실 건가요?
+
+### (1) 집을 사는 타이밍
+
+<table style="border-collapse:collapse; font-size:0.85em; max-width:820px; margin:0.5em 0;">
+  <thead>
+    <tr>
+      <th style="border:1px solid #999; padding:4px 8px; white-space:nowrap; text-align:left;">항목</th>
+      <th style="border:1px solid #999; padding:4px 8px; text-align:left;">내용</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border:1px solid #999; padding:4px 8px; white-space:nowrap;">해답</td>
+      <td style="border:1px solid #999; padding:4px 8px;">내가 사고 싶은 집을 살 수 있는 <strong>'돈(종잣돈+대출)'이 준비되었을 때</strong>.</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #999; padding:4px 8px; white-space:nowrap;">근거</td>
+      <td style="border:1px solid #999; padding:4px 8px;">인플레이션으로 아파트값이 과거 시세로 돌아가기는 매우 어려움. 단기 조정은 있을 수 있지만 장기적으로는 <strong>우상향 그래프</strong>를 그림.</td>
+    </tr>
+  </tbody>
+</table>
+
+### (2) 집값 상승의 거품을 알아보는 법
+
+<table style="border-collapse:collapse; font-size:0.85em; max-width:820px; margin:0.5em 0;">
+  <thead>
+    <tr>
+      <th style="border:1px solid #999; padding:4px 8px; white-space:nowrap; text-align:left;">항목</th>
+      <th style="border:1px solid #999; padding:4px 8px; text-align:left;">내용</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border:1px solid #999; padding:4px 8px; white-space:nowrap;">핵심</td>
+      <td style="border:1px solid #999; padding:4px 8px;">집값 상승이 <strong>어느 지역까지 퍼져 있는가</strong>를 봐야 함.</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #999; padding:4px 8px; white-space:nowrap;">정상적인 시장</td>
+      <td style="border:1px solid #999; padding:4px 8px;">수도권 핵심 지역과 수요층이 단단한 인기 아파트 위주로 가격이 오름.</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #999; padding:4px 8px; white-space:nowrap;">거품(과열) 시장</td>
+      <td style="border:1px solid #999; padding:4px 8px;">평소 오르지 않던 <strong>외곽·나홀로 아파트까지 덩달아 가격이 오름</strong>.</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #999; padding:4px 8px; white-space:nowrap;">결론</td>
+      <td style="border:1px solid #999; padding:4px 8px;">전국 구석구석·비인기 아파트까지 덩달아 오르면 <strong>시장 고점</strong>이라는 뜻 → 매수를 멈추고 관망해야 함.</td>
+    </tr>
+  </tbody>
+</table>
+
+### (3) 어떤 집을 살 것인가?
+
+<table style="border-collapse:collapse; font-size:0.85em; max-width:820px; margin:0.5em 0;">
+  <thead>
+    <tr>
+      <th style="border:1px solid #999; padding:4px 8px; white-space:nowrap; text-align:left;">항목</th>
+      <th style="border:1px solid #999; padding:4px 8px; text-align:left;">내용</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border:1px solid #999; padding:4px 8px; white-space:nowrap;">해답</td>
+      <td style="border:1px solid #999; padding:4px 8px;">내가 살 수 있는 것 중에 <strong>가장 좋은 것</strong>을 삼. 가장 좋은 것 = <strong>'입지'가 좋고 '상품성'이 좋은 아파트</strong>.</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #999; padding:4px 8px; white-space:nowrap;">상품성의 조건</td>
+      <td style="border:1px solid #999; padding:4px 8px;">(재건축 제외) 건설사 브랜드 · 평형 구성 · 커뮤니티 구성 · 세대수 등의 조건으로 판단함.</td>
+    </tr>
+  </tbody>
+</table>
+
+### (4) 대단지 아파트가 좋은 이유
+
+<table style="border-collapse:collapse; font-size:0.85em; max-width:820px; margin:0.5em 0;">
+  <thead>
+    <tr>
+      <th style="border:1px solid #999; padding:4px 8px; white-space:nowrap; text-align:left;">항목</th>
+      <th style="border:1px solid #999; padding:4px 8px; text-align:left;">내용</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border:1px solid #999; padding:4px 8px; white-space:nowrap;">규모의 경제</td>
+      <td style="border:1px solid #999; padding:4px 8px;">세대수 많을수록 지역을 대표하는 <strong>상징성</strong>을 가지며 시세를 이끄는 힘이 있음. 보안·커뮤니티 관리 체계뿐만 아니라 주변 상권 활성화에도 영향을 미침. 재건축·리모델링을 할 때도 세대당 부담이 적어 합의가 쉽고 주변 지역 개발의 중심지가 될 수 있음.</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #999; padding:4px 8px; white-space:nowrap;">환금성</td>
+      <td style="border:1px solid #999; padding:4px 8px;">거래가 잦아 매수·매도·전세 가격이 <strong>투명하게 형성됨</strong>. 한두 건의 급매 매물이 전체 시세를 깎아 먹는 가격 왜곡이 일어나지 않음.</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #999; padding:4px 8px; white-space:nowrap;">예외</td>
+      <td style="border:1px solid #999; padding:4px 8px;">'초고가 시장'에서는 오히려 <strong>소규모 단지</strong>가 선호되기도 함.</td>
+    </tr>
+  </tbody>
+</table>
+
+### (5) 입지 vs 상품성
+
+<table style="border-collapse:collapse; font-size:0.85em; max-width:820px; margin:0.5em 0;">
+  <thead>
+    <tr>
+      <th style="border:1px solid #999; padding:4px 8px; white-space:nowrap; text-align:left;">상황</th>
+      <th style="border:1px solid #999; padding:4px 8px; text-align:left;">우선순위</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border:1px solid #999; padding:4px 8px; white-space:nowrap;">실전 매물을 고를 때</td>
+      <td style="border:1px solid #999; padding:4px 8px;"><strong>입지 차이를 기준</strong>으로 생각함.</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #999; padding:4px 8px; white-space:nowrap;">입지 차이가 크다면</td>
+      <td style="border:1px solid #999; padding:4px 8px;">무조건 <strong>입지 우선</strong>.</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #999; padding:4px 8px; white-space:nowrap;">입지 차이가 미미하다면</td>
+      <td style="border:1px solid #999; padding:4px 8px;"><strong>상품성 우선</strong>.</td>
+    </tr>
+  </tbody>
+</table>
+
+## 6. 똘똘한 한 채를 탐구하다
+
+### (1) 똘똘한 한 채의 진짜 의미 (비싼 집엔 이유가 있다)
+
+<table style="border-collapse:collapse; font-size:0.85em; max-width:820px; margin:0.5em 0;">
+  <thead>
+    <tr>
+      <th style="border:1px solid #999; padding:4px 8px; white-space:nowrap; text-align:left;">항목</th>
+      <th style="border:1px solid #999; padding:4px 8px; text-align:left;">내용</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border:1px solid #999; padding:4px 8px; white-space:nowrap;">최소 기준</td>
+      <td style="border:1px solid #999; padding:4px 8px;"><strong>마포구·성동구·용산구·동작구·강동구</strong>의 24평 신축급 아파트.</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #999; padding:4px 8px; white-space:nowrap;">특징</td>
+      <td style="border:1px solid #999; padding:4px 8px;">하락장이 끝나고 반등장이 올 때, <strong>시장 평균보다 빠르고 높게(회복탄력성)</strong> 치고 올라감.</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #999; padding:4px 8px; white-space:nowrap;">핵심</td>
+      <td style="border:1px solid #999; padding:4px 8px;">당장 실거주보다, <strong>'전세'를 끼고 소유권을 갖는 것</strong>으로도 충분함 (*단, 토허제 등 규제 확인 필수).</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #999; padding:4px 8px; white-space:nowrap;">실행 방법</td>
+      <td style="border:1px solid #999; padding:4px 8px;"><strong>갈아타기</strong>를 통해 똘똘한 한 채를 향해 차근차근 갈 수 있는 계획을 세워야 함.</td>
+    </tr>
+  </tbody>
+</table>
+
+### (2) 아파트를 먼저 사야 하는 이유
+
+<table style="border-collapse:collapse; font-size:0.85em; max-width:820px; margin:0.5em 0;">
+  <thead>
+    <tr>
+      <th style="border:1px solid #999; padding:4px 8px; white-space:nowrap; text-align:left;">항목</th>
+      <th style="border:1px solid #999; padding:4px 8px; text-align:left;">내용</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border:1px solid #999; padding:4px 8px; white-space:nowrap;">압도적인 환금성</td>
+      <td style="border:1px solid #999; padding:4px 8px;">부동산은 사고파는 데 품이 많이 드는 자산이지만, <strong>아파트는 다른 부동산 자산에 비해 환금성이 좋음</strong>.</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #999; padding:4px 8px; white-space:nowrap;">전세 레버리지</td>
+      <td style="border:1px solid #999; padding:4px 8px;">전세 제도는 <strong>아파트에만</strong> 있음. 이를 활용하면 매매가의 절반 이상을 <strong>무이자로 대출받은 것과 같음</strong>.</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #999; padding:4px 8px; white-space:nowrap;">결론</td>
+      <td style="border:1px solid #999; padding:4px 8px;">환금성과 레버리지의 장점을 갖춘 <strong>아파트를 우선 공부함</strong>.</td>
+    </tr>
+  </tbody>
+</table>
+
+### (3) 토지거래허가구역(토허제) 등 규제가 있다면?
+
+<table style="border-collapse:collapse; font-size:0.85em; max-width:820px; margin:0.5em 0;">
+  <thead>
+    <tr>
+      <th style="border:1px solid #999; padding:4px 8px; white-space:nowrap; text-align:left;">항목</th>
+      <th style="border:1px solid #999; padding:4px 8px; text-align:left;">내용</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border:1px solid #999; padding:4px 8px; white-space:nowrap;">토허제란</td>
+      <td style="border:1px solid #999; padding:4px 8px;">아파트를 <strong>전세 끼고 사는 갭투자가 전면 금지</strong>되고, 반드시 <strong>'실거주'</strong>를 해야만 집을 살 수 있는 규제구역. 대출 한도가 낮아져 살 수 있는 가격대에 차이가 생김.</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #999; padding:4px 8px; white-space:nowrap;">우회 방법</td>
+      <td style="border:1px solid #999; padding:4px 8px;">토허제라도 <strong>실거주 의무가 없는 재개발 빌라</strong>는 상급지 아파트를 미리 선점할 수 있는 현실적 방법이 될 수 있음.</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #999; padding:4px 8px; white-space:nowrap;">마인드셋</td>
+      <td style="border:1px solid #999; padding:4px 8px;">규제는 언제든 생기고 또 풀림. <strong>규제 여부보다 현재 내 예산과 상황 안에서 가장 좋은 입지의 상품</strong>을 고른다는 본질에 집중해야 함.</td>
+    </tr>
+  </tbody>
+</table>
+
+### (4) 회복탄력성을 확인할 것
+
+<table style="border-collapse:collapse; font-size:0.85em; max-width:820px; margin:0.5em 0;">
+  <thead>
+    <tr>
+      <th style="border:1px solid #999; padding:4px 8px; white-space:nowrap; text-align:left;">상황</th>
+      <th style="border:1px solid #999; padding:4px 8px; text-align:left;">의미</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border:1px solid #999; padding:4px 8px; white-space:nowrap;">2023년 초 대비 전혀 반등하지 않았다면</td>
+      <td style="border:1px solid #999; padding:4px 8px;">자산 가치가 <strong>떨어진다는 의미</strong>.</td>
+    </tr>
+    <tr>
+      <td style="border:1px solid #999; padding:4px 8px; white-space:nowrap;">2023년 초 대비 반등을 했다면</td>
+      <td style="border:1px solid #999; padding:4px 8px;">해당 아파트값이 <strong>회복탄력성이 좋다는 의미</strong>.</td>
+    </tr>
+  </tbody>
+</table>
+
+
