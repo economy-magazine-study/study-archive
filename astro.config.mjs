@@ -370,7 +370,7 @@ export default defineConfig({
             },
             {
               label: '4주차 (2026-06-25)',
-              collapsed: false,
+              collapsed: true,
               items: [
                 { label: '4주차 개요', slug: 'gen-4/week-04-2026-06-25' },
                 { label: '윤혜상', slug: 'gen-4/week-04-2026-06-25/yun-hyesang' },
@@ -382,7 +382,7 @@ export default defineConfig({
             },
             {
               label: '5주차 (2026-07-01)',
-              collapsed: false,
+              collapsed: true,
               items: [
                 { label: '5주차 개요', slug: 'gen-4/week-05-2026-07-01' },
                 {
@@ -437,7 +437,7 @@ export default defineConfig({
             },
             {
               label: '6주차 (2026-07-09)',
-              collapsed: false,
+              collapsed: true,
               items: [
                 { label: '6주차 개요', slug: 'gen-4/week-06-2026-07-09' },
                 { label: '정나현', slug: 'gen-4/week-06-2026-07-09/jung-nahyun' },
@@ -517,6 +517,7 @@ export default defineConfig({
               collapsed: false,
               items: [
                 { label: '7주차 개요', slug: 'gen-4/week-07-2026-07-16' },
+                { label: '정나현', slug: 'gen-4/week-07-2026-07-16/jung-nahyun' },
                 { label: '윤혜상', slug: 'gen-4/week-07-2026-07-16/yun-hyesang' },
               ],
             },
