@@ -528,6 +528,7 @@ export default defineConfig({
                   label: '송하영',
                   slug: 'gen-4/week-07-2026-07-16/song-hayoung/house-price-policy-cards',
                 },
+                { label: '조수진', slug: 'gen-4/week-07-2026-07-16/sujin' },
               ],
             },
           ],
