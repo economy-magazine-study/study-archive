@@ -524,6 +524,10 @@ export default defineConfig({
                 { label: '윤혜상', slug: 'gen-4/week-07-2026-07-16/yun-hyesang' },
                 { label: '서혜인', slug: 'gen-4/week-07-2026-07-16/seo-hyein' },
                 { label: '김요욱', slug: 'gen-4/week-07-2026-07-16/kim-yowook' },
+                {
+                  label: '송하영',
+                  slug: 'gen-4/week-07-2026-07-16/song-hayoung/house-price-policy-cards',
+                },
               ],
             },
           ],
