@@ -521,6 +521,7 @@ export default defineConfig({
               items: [
                 { label: '7주차 개요', slug: 'gen-4/week-07-2026-07-16' },
                 { label: '정나현', slug: 'gen-4/week-07-2026-07-16/jung-nahyun' },
+                { label: '정나현 - 서울시 진단', slug: 'gen-4/week-07-2026-07-16/jung-nahyun/seoul-city-diagnosis' },
                 { label: '윤혜상', slug: 'gen-4/week-07-2026-07-16/yun-hyesang' },
                 { label: '서혜인', slug: 'gen-4/week-07-2026-07-16/seo-hyein' },
                 { label: '김요욱', slug: 'gen-4/week-07-2026-07-16/kim-yowook' },
