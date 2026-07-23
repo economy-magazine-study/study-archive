@@ -540,6 +540,7 @@ export default defineConfig({
               items: [
                 { label: '8주차 개요', slug: 'gen-4/week-08-2026-07-23' },
                 { label: '윤혜상', slug: 'gen-4/week-08-2026-07-23/yun-hyesang' },
+                { label: '김요욱', slug: 'gen-4/week-08-2026-07-23/kim-yowook' },
                 { label: '서혜인', slug: 'gen-4/week-08-2026-07-23/seo-hyein' },
               ],
             },
