@@ -545,6 +545,7 @@ export default defineConfig({
                 { label: '강유리', slug: 'gen-4/week-08-2026-07-23/yuri-kang' },
                 { label: '임현호', slug: 'gen-4/week-08-2026-07-23/hyunho' },
                 { label: '정나현', slug: 'gen-4/week-08-2026-07-23/jung-nahyun' },
+                { label: '정나현2', slug: 'gen-4/week-08-2026-07-23/jung-nahyun-2' },
                 {
                   label: '송하영',
                   slug: 'gen-4/week-08-2026-07-23/song-hayoung/clarity-act-digital-dollar',
