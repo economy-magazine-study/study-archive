@@ -549,6 +549,7 @@ export default defineConfig({
                   label: '송하영',
                   slug: 'gen-4/week-08-2026-07-23/song-hayoung/clarity-act-digital-dollar',
                 },
+                { label: '조수진', slug: 'gen-4/week-08-2026-07-23/sujin' },
               ],
             },
           ],
