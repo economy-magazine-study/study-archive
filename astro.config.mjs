@@ -546,6 +546,17 @@ export default defineConfig({
                 { label: '임현호', slug: 'gen-4/week-08-2026-07-23/hyunho' },
               ],
             },
+            {
+              label: '8주차 (2026-07-23)',
+              collapsed: false,
+              items: [
+                { label: '8주차 개요', slug: 'gen-4/week-08-2026-07-23' },
+                {
+                  label: '송하영',
+                  slug: 'gen-4/week-08-2026-07-23/song-hayoung/clarity-act-digital-dollar',
+                },
+              ],
+            },
           ],
         },
         {
