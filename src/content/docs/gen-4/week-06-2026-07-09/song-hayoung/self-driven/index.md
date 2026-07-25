@@ -22,7 +22,7 @@ entities:
   organizations: []
   companies: []
   people: [송희구]
-  indicators: []
+  indicators: [시세, 한계시세, 역세권, 호가, 전세가, 실거래가, 단지 내 환경, 동선의 질]
 sidebar:
   label: 10장 보라, 스스로 움직이다
   order: 1

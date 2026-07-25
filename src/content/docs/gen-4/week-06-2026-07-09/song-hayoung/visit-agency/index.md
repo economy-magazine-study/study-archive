@@ -18,11 +18,11 @@ related:
   pages: [gen-4/week-06-2026-07-09/song-hayoung/self-driven]
 entities:
   countries: [한국]
-  regions: []
+  regions: [최상급지, 중급지, 중하급지]
   organizations: []
   companies: []
   people: [송희구]
-  indicators: []
+  indicators: [인테리어 투자금, 수리 상태, 매물 평수, 급매, 전세가, 시세, 월세, 환금성]
 sidebar:
   label: 11장 보라, 부동산에 가다
   order: 2

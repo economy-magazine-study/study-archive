@@ -18,11 +18,11 @@ related:
   pages: []
 entities:
   countries: [한국]
-  regions: []
+  regions: [한강]
   organizations: []
   companies: []
-  people: []
-  indicators: [매매가, 전세가, 분양권프리미엄]
+  people: [송희구]
+  indicators: [매매가, 전세가, 분양권프리미엄, 로얄동, 로얄층, 조망 프리미엄, 앞동뷰, 필로티 2층, 탑층, 전매제한, 중도금대출, 분양가, 시세 차이, 세대수, 역세권]
 sidebar:
   label: 강유리
   order: 1

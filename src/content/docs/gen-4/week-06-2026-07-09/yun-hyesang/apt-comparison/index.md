@@ -29,9 +29,9 @@ entities:
   countries: [한국]
   regions: []
   organizations: []
-  companies: []
-  people: []
-  indicators: [매매가, 임대가, 전세가율]
+  companies: [래미안, 주공]
+  people: [송희구]
+  indicators: [매매가, 임대가, 전세가율, 실거래가, 토지거래허가구역, 재건축, 필로티 2층, 급지, 신축, 구축]
 related:
   topics: [부동산, 아파트, 매물 비교, 재건축]
   pages: [gen-4/week-06-2026-07-09/yun-hyesang/commercial-vs-apt]

@@ -42,7 +42,7 @@ entities:
       동진쎄미켐,
     ]
   people: []
-  indicators: []
+  indicators: [D램, HBM, EUV, 포토마스크, 포토레지스트, 웨이퍼, 멀티패터닝, 싱글패터닝, 수율, 파운드리]
 related:
   topics: [반도체 전공정, EUV, HBM, AI 반도체, 소재 국산화]
   pages: [gen-4/week-02-2026-06-11/seo-hyein/semiconductor-etching]

@@ -30,11 +30,11 @@ related:
   pages: []
 entities:
   countries: [한국]
-  regions: []
-  organizations: []
+  regions: [안양 남동축]
+  organizations: [은행]
   companies: []
   people: []
-  indicators: [현금화 가능 금액, 대출 가능 금액]
+  indicators: [현금화 가능 금액, 대출 가능 금액, 계약금, 중도금, 잔금, 청약, 분양, 종잣돈, 주택담보대출, 신용대출, 전세자금대출, 대출이율]
 sidebar:
   label: 임현호
   order: 4

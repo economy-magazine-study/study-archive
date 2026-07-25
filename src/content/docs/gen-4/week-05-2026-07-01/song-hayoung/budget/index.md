@@ -22,7 +22,7 @@ entities:
   organizations: []
   companies: []
   people: []
-  indicators: [LTV, 전세가율, DSR, 대출한도]
+  indicators: [LTV, 전세가율, DSR, 대출한도, 매매가, 전세가, 종잣돈, 배수, 신용대출, 구매 가능 집값, 연봉]
 sidebar:
   label: 우리 집 좌표 찍기 (구매가능 집값)
   order: 1

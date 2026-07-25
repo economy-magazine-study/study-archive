@@ -14,12 +14,12 @@ source:
   url:
   section: 투자전략 (1593호, 20p)
 entities:
-  countries: []
-  regions: []
-  organizations: []
-  companies: []
-  people: []
-  indicators: []
+  countries: [미국, 이란, 이라크, 쿠웨이트, 러시아, 우크라이나]
+  regions: [중동, 호르무즈해협, 크림반도, 아시아]
+  organizations: [Fed]
+  companies: [한화에어로스페이스]
+  people: [조윤남]
+  indicators: [국방비, 원유 가격, LNG, 유가, 인플레이션, 금리, 환율, S&P500, 나스닥]
 related:
   topics: [투자전략, 증시사이클, 전쟁리스크]
   pages: []

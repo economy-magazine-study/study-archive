@@ -5,6 +5,13 @@ author: 정나현
 date: 2026-07-23
 generation: 4
 week: 8
+entities:
+  countries: [한국]
+  regions: []
+  organizations: [한국노동연구원, 매경이코노미, 정부]
+  companies: []
+  people: [노세리]
+  indicators: [AX, RX, AI 전환, 로봇 전환, 피지컬 AI, 신규 채용, 청년 고용, 작업시간 절감률, 품질검사, 유지보수, 구매 예측, 생산성, 직무 전환, 재교육, 고용 유연화]
 sidebar:
   label: 정나현
 ---

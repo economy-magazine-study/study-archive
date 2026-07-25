@@ -27,10 +27,10 @@ source:
 entities:
   countries: [한국]
   regions: []
-  organizations: []
+  organizations: [은행, 등기소]
   companies: []
-  people: []
-  indicators: [전세가, 시세, 계약금, 중개보수]
+  people: [송희구]
+  indicators: [전세가, 시세, 계약금, 중개보수, 잔금, 특약, 위약금, 소유권이전등기, 전세금, 신용대출, 잔금일, 입주장, 하락장, 상급지 갈아타기]
 related:
   topics: [매매계약, 하락장 대응, 잔금, 특약, 리스크 관리]
   pages: [gen-4/week-06-2026-07-09/sujin/redevelopment-and-tax-saving]

@@ -29,11 +29,11 @@ source:
   section: 14장
 entities:
   countries: [한국]
-  regions: []
+  regions: [서울권]
   organizations: []
   companies: []
-  people: []
-  indicators: [임대수익률, 표면수익률, 실질수익률, 국채금리, 예금금리, 전세가율]
+  people: [송희구, 김영익]
+  indicators: [임대수익률, 표면수익률, 실질수익률, 국채금리, 예금금리, 전세가율, 월세, 공실률, 시세차익, 현금흐름, 월세 거래 비중, 실거주 수요]
 related:
   topics: [부동산, 상업용 부동산, 아파트, 자산배분, 현금흐름]
   pages: [gen-4/week-06-2026-07-09/jung-nahyun]
@@ -94,4 +94,3 @@ sidebar:
 
 - 내가 이 집을 얼마나 좋아하느냐(체감 가치)와 시장이 이 집을 얼마로 평가하느냐(시세)는 **다르다**.
 - 시장 시세가 오르지 않는 자산은, 아무리 애정이 있어도 **투자 가치 낮음**으로 분류하는 게 냉정한 판단.
-

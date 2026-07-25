@@ -5,6 +5,13 @@ author: 정나현
 date: 2026-07-09
 generation: 4
 week: 6
+entities:
+  countries: [한국]
+  regions: [강남, 서초, 반포, 흑석, 송파, 용산, 여의도, 마포, 성동, 광진, 강동, 영등포, 동작, 양천, 노원, 도봉, 강북, 은평, 파주, 킨텍스, 삼송, 서울역, 수원, 안산, 판교, 인천, 위례, 신사, 대치동, 목동, 중계동]
+  organizations: []
+  companies: [써밋더힐]
+  people: [송희구]
+  indicators: [청약가점, LTV, DSR, DTI, 매매가, 전세가, 월세, 전세가율, 분양가, 계약금, 중도금, 잔금, GTX-A, GTX-C, 신안산선, 월곶판교선, 위례신사선, 신분당선 연장]
 sidebar:
   label: 정나현
   order: 1
@@ -1050,6 +1057,5 @@ sidebar:
     </tr>
   </tbody>
 </table>
-
 
 

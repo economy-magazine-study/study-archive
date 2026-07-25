@@ -20,10 +20,10 @@ related:
 entities:
   countries: [한국]
   regions: []
-  organizations: []
+  organizations: [은행]
   companies: []
   people: []
-  indicators: [소득요건, 대출한도, 금리]
+  indicators: [소득요건, 대출한도, 금리, LTV, DSR, 주담대, 중도금대출, 양도세, 혼인합가 비과세, 세대 분리, 혼인신고]
 sidebar:
   label: 호적 상태별 대출 테크트리
   order: 2

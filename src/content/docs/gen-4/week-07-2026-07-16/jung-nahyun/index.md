@@ -7,6 +7,13 @@ generation: 4
 week: 7
 tags: [부동산, 규제, 집값전망, 재건축]
 keywords: [규제3종세트, 토지거래허가구역, 조정대상지역, 투기과열지구, 풍선효과, 재건축, 실거주]
+entities:
+  countries: [한국]
+  regions: [동탄, 구리, 기흥, 서울, 경기, 분당, 과천, 오산, 안양 만안, 수원 권선, 남양주, 수도권, 강남]
+  organizations: [부읽남TV]
+  companies: [롯데캐슬, 별내 이편한세상, 별내아이파크 2차]
+  people: [송승현, 이재명, 문재인]
+  indicators: [토지거래허가구역, 조정대상지역, 투기과열지구, LTV, 양도세, 보유세, 전세가, 매매가, 재건축 사업성, 풍선효과]
 sidebar:
   label: 정나현
   order: 3

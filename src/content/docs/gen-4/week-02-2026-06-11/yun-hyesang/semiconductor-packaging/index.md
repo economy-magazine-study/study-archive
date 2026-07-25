@@ -48,7 +48,7 @@ entities:
       엔비디아,
     ]
   people: []
-  indicators: []
+  indicators: [다이싱, 와이어 본딩, 플립칩, TC 본딩, 솔더볼, 리드프레임, 본딩 와이어, TSV, HBM, 점유율, 데이터 처리 속도, 전력 소모]
 related:
   topics: [반도체 후공정, 패키징, HBM, AI 반도체, K-소부장]
   pages: [gen-4/week-02-2026-06-11/yun-hyesang/semiconductor-test]

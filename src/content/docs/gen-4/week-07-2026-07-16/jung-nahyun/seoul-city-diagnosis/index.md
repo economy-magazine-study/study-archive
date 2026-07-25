@@ -5,6 +5,13 @@ author: 정나현
 date: 2026-07-16
 generation: 4
 week: 7
+entities:
+  countries: [한국]
+  regions: [서울, 강남, 비강남, 신림동, 동대문, 영등포, 강서, 관악, 동작, 성북, 성동, 노원, 중구, 광진구, 도봉, 한강벨트, 남양주, 광명, 고양 덕양, 하남, 고덕]
+  organizations: [서울시, SH]
+  companies: [고덕 아르테온]
+  people: [이재명, 노무현, 문재인]
+  indicators: [매매가, 전세가, 월세, 주택담보대출, LTV, 토지거래허가구역, 양도세, 종부세, 재산세, 전세가율, 갱신계약 비율, 주택 공급, 정비사업 입주, 임대료 인상률]
 sidebar:
   label: 정나현 - 서울시 진단
   order: 2

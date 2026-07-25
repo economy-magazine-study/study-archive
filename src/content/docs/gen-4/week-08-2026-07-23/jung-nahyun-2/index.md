@@ -5,6 +5,13 @@ author: 정나현
 date: 2026-07-23
 generation: 4
 week: 8
+entities:
+  countries: [한국, 프랑스, 중국]
+  regions: [파주, 아시아]
+  organizations: [매경이코노미, 포춘 비즈니스 인사이트]
+  companies: [엑소텍, 무신사, 까르푸, 아리아트]
+  people: [로맹 물랭]
+  indicators: [GTP, AS/RS, SKU, AMR, WES, WMS, 시장 규모, 생산가능인구, 인건비, 피킹 생산성, 시스템 성능, 물류 자동화]
 sidebar:
   label: 정나현2
 ---

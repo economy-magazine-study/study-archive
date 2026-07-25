@@ -43,8 +43,8 @@ entities:
       솔브레인,
       비씨앤씨,
     ]
-  people: []
-  indicators: []
+  people: [김영은]
+  indicators: [HARC, TSV, 극저온 식각, HBM, 낸드플래시, 포커스링, 수율, 주가]
 related:
   topics: [반도체 전공정, 식각공정, HBM, 적층, K-소부장]
   pages: [gen-4/week-02-2026-06-11/seo-hyein/semiconductor-photo]

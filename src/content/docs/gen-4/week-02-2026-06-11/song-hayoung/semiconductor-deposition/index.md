@@ -14,12 +14,12 @@ source:
   url:
   section: 증착공정
 entities:
-  countries: []
+  countries: [한국, 미국, 일본, 대만]
   regions: []
   organizations: []
-  companies: []
-  people: []
-  indicators: []
+  companies: [주성엔지니어링, 삼성전자, SK하이닉스, 어플라이드머티리얼즈, 램리서치, 도쿄일렉트론, 원익IPS, 테스, 유진테크, TSMC, 인텔]
+  people: [김영은]
+  indicators: [CVD, ALD, PECVD, LPCVD, HBM, 3D NAND, 시가총액, 주가]
 related:
   topics: []
   pages: [gen-4/week-02-2026-06-11/song-hayoung/semiconductor-metal]
