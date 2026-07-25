@@ -1,0 +1,180 @@
+---
+import ArchiveLayout from '../../layouts/ArchiveLayout.astro';
+import { entityHref, getArchiveIndex, groupFacets, withBase } from '../../lib/archive-index';
+
+const index = await getArchiveIndex();
+const base = withBase('');
+const groups = groupFacets(index).filter((group) => group.facets.length > 0);
+const entityCount = index.facets.filter((facet) => facet.group === 'entities').length;
+const topicCount = index.facets.filter((facet) => facet.group === 'topics').length;
+const topFacets = index.facets
+  .filter((facet) => facet.count > 1 && facet.type !== 'countries')
+  .slice(0, 18);
+const relationCount = index.docs.reduce(
+  (sum, doc) => sum + Object.values(doc.facets).reduce((docSum, values) => docSum + values.length, 0),
+  0,
+);
+---
+
+<ArchiveLayout
+  title="메타데이터 탐색"
+  description="프론트매터의 entities, topics, tags, keywords를 기반으로 색인과 관계도를 탐색합니다."
+  active="overview"
+>
+  <header class="page-header">
+    <div>
+      <p class="eyebrow">metadata explorer</p>
+      <h1 class="page-title">색인과 관계도</h1>
+      <p class="page-copy">
+        문서에 쌓인 엔티티, 주제, 태그, 키워드를 한데 모아 발표 자료를 다시 찾고 주제 간 연결을 훑어볼 수 있게
+        만든 정적 탐색 화면입니다.
+      </p>
+    </div>
+    <div class="metric-strip" aria-label="아카이브 메타데이터 요약">
+      <div class="metric"><strong>{index.docs.length}</strong><span>문서</span></div>
+      <div class="metric"><strong>{entityCount}</strong><span>엔티티</span></div>
+      <div class="metric"><strong>{topicCount}</strong><span>주제/키워드</span></div>
+      <div class="metric"><strong>{relationCount}</strong><span>연결</span></div>
+    </div>
+  </header>
+
+  <section class="entry-grid" aria-label="탐색 도구">
+    <a class="entry-card" href={`${base}archive/entities/`}>
+      <span class="entry-kicker">index</span>
+      <strong>색인</strong>
+      <span>국가, 지역, 기업, 인물, 지표, 주제별로 문서를 모아봅니다.</span>
+    </a>
+    <a class="entry-card" href={`${base}archive/graph/`}>
+      <span class="entry-kicker">map</span>
+      <strong>관계도</strong>
+      <span>문서와 엔티티가 어떻게 함께 등장하는지 한 화면에서 탐색합니다.</span>
+    </a>
+  </section>
+
+  <section>
+    <h2 class="section-title">상위 연결어</h2>
+    <div class="facet-cloud">
+      {
+        topFacets.map((facet) => (
+          <a class="facet-chip" href={entityHref(facet.type, facet.id)}>
+            <span>{facet.name}</span>
+            <small>{facet.label} · {facet.count}</small>
+          </a>
+        ))
+      }
+    </div>
+  </section>
+
+  <section>
+    <h2 class="section-title">분류별 밀도</h2>
+    <div class="grid">
+      {
+        groups.map((group) => {
+          const docIds = new Set(group.facets.flatMap((facet) => facet.docIds));
+          return (
+            <article class="card card-pad type-summary">
+              <div>
+                <strong>{group.label}</strong>
+                <p class="muted">{group.description}</p>
+              </div>
+              <div class="summary-counts">
+                <span>{group.facets.length}개 항목</span>
+                <span>{docIds.size}개 문서</span>
+              </div>
+            </article>
+          );
+        })
+      }
+    </div>
+  </section>
+</ArchiveLayout>
+
+<style>
+  .entry-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 12px;
+  }
+
+  .entry-card {
+    display: grid;
+    min-height: 170px;
+    align-content: space-between;
+    gap: 14px;
+    padding: 18px;
+    border: 1px solid var(--archive-line);
+    border-radius: var(--archive-radius);
+    background: var(--archive-surface);
+    text-decoration: none;
+  }
+
+  .entry-card:hover {
+    border-color: var(--archive-strong);
+  }
+
+  .entry-card strong {
+    font-size: 1.5rem;
+  }
+
+  .entry-card span:last-child {
+    color: var(--archive-muted);
+    line-height: 1.6;
+  }
+
+  .entry-kicker {
+    color: var(--archive-accent);
+    font-size: 0.78rem;
+    font-weight: 780;
+    text-transform: uppercase;
+  }
+
+  .facet-cloud {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .facet-chip {
+    display: inline-grid;
+    gap: 2px;
+    min-width: 148px;
+    padding: 9px 10px;
+    border: 1px solid var(--archive-line);
+    border-radius: var(--archive-radius);
+    background: var(--archive-surface);
+    text-decoration: none;
+  }
+
+  .facet-chip:hover {
+    border-color: var(--archive-accent);
+  }
+
+  .facet-chip span {
+    font-weight: 720;
+  }
+
+  .facet-chip small {
+    color: var(--archive-muted);
+  }
+
+  .type-summary {
+    display: flex;
+    justify-content: space-between;
+    gap: 14px;
+  }
+
+  .type-summary p {
+    margin: 6px 0 0;
+    font-size: 0.9rem;
+    line-height: 1.55;
+  }
+
+  .summary-counts {
+    display: grid;
+    gap: 4px;
+    min-width: 96px;
+    color: var(--archive-muted);
+    font-size: 0.84rem;
+    text-align: right;
+  }
+</style>

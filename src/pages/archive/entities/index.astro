@@ -1,0 +1,190 @@
+---
+import ArchiveLayout from '../../../layouts/ArchiveLayout.astro';
+import { entityHref, getArchiveIndex, groupFacets } from '../../../lib/archive-index';
+
+const index = await getArchiveIndex();
+const groups = groupFacets(index).filter((group) => group.facets.length > 0);
+const entityCount = index.facets.filter((facet) => facet.group === 'entities').length;
+const topicCount = index.facets.filter((facet) => facet.group === 'topics').length;
+---
+
+<ArchiveLayout
+  title="색인"
+  description="프론트매터 메타데이터로 만든 문서 색인입니다."
+  active="entities"
+>
+  <header class="page-header">
+    <div>
+      <p class="eyebrow">entity index</p>
+      <h1 class="page-title">색인</h1>
+      <p class="page-copy">
+        국가, 지역, 기관, 기업, 인물, 지표, 주제, 태그, 키워드를 기준으로 모든 발표 문서를 다시 묶었습니다.
+      </p>
+    </div>
+    <div class="metric-strip">
+      <div class="metric"><strong>{index.facets.length}</strong><span>색인 항목</span></div>
+      <div class="metric"><strong>{entityCount}</strong><span>엔티티</span></div>
+      <div class="metric"><strong>{topicCount}</strong><span>주제/키워드</span></div>
+    </div>
+  </header>
+
+  <div class="toolbar" aria-label="색인 필터">
+    <input id="entitySearch" class="input" type="search" placeholder="항목, 유형, 관련 문서 검색" autocomplete="off" />
+    <select id="entityType" class="select" aria-label="유형 선택">
+      <option value="">전체 유형</option>
+      {groups.map((group) => <option value={group.type}>{group.label}</option>)}
+    </select>
+    <span id="entityResultCount" class="result-count">{index.facets.length}개 항목</span>
+  </div>
+
+  <div id="emptyState" class="empty-state" hidden>조건에 맞는 색인 항목이 없습니다.</div>
+
+  {
+    groups.map((group) => (
+      <section class="facet-section" data-entity-section data-type={group.type}>
+        <div class="section-heading">
+          <div>
+            <h2>{group.label}</h2>
+            <p>{group.description}</p>
+          </div>
+          <span>{group.facets.length}개</span>
+        </div>
+        <div class="entity-grid">
+          {
+            group.facets.map((facet) => {
+              const relatedDocsText = facet.docIds
+                .map((docId) => index.docsById.get(docId))
+                .filter(Boolean)
+                .map((doc) => `${doc?.title ?? ''} ${doc?.author ?? ''} ${doc?.weekLabel ?? ''}`)
+                .join(' ');
+
+              return (
+                <a
+                  class="entity-card"
+                  href={entityHref(facet.type, facet.id)}
+                  data-entity-card
+                  data-type={facet.type}
+                  data-search={`${facet.name} ${facet.label} ${facet.description} ${facet.count} ${relatedDocsText}`}
+                >
+                  <strong>{facet.name}</strong>
+                  <span>{facet.label} · {facet.count}개 문서</span>
+                </a>
+              );
+            })
+          }
+        </div>
+      </section>
+    ))
+  }
+</ArchiveLayout>
+
+<script>
+  const searchInput = document.getElementById('entitySearch');
+  const typeSelect = document.getElementById('entityType');
+  const resultCount = document.getElementById('entityResultCount');
+  const emptyState = document.getElementById('emptyState');
+  const cards = Array.from(document.querySelectorAll('[data-entity-card]'));
+  const sections = Array.from(document.querySelectorAll('[data-entity-section]'));
+
+  const normalize = (value) => value.normalize('NFKC').toLocaleLowerCase('ko-KR').trim();
+
+  function applyEntityFilters() {
+    const query = normalize(searchInput.value);
+    const selectedType = typeSelect.value;
+    let visibleCount = 0;
+
+    for (const card of cards) {
+      const matchesType = !selectedType || card.dataset.type === selectedType;
+      const matchesQuery = !query || normalize(card.dataset.search ?? '').includes(query);
+      const visible = matchesType && matchesQuery;
+      card.hidden = !visible;
+      if (visible) visibleCount += 1;
+    }
+
+    for (const section of sections) {
+      const sectionCards = Array.from(section.querySelectorAll('[data-entity-card]'));
+      section.hidden = sectionCards.every((card) => card.hidden);
+    }
+
+    resultCount.textContent = `${visibleCount}개 항목`;
+    emptyState.hidden = visibleCount > 0;
+  }
+
+  searchInput.addEventListener('input', applyEntityFilters);
+  typeSelect.addEventListener('change', applyEntityFilters);
+</script>
+
+<style>
+  .result-count {
+    color: var(--archive-muted);
+    font-size: 0.88rem;
+  }
+
+  .empty-state {
+    padding: 18px;
+    border: 1px solid var(--archive-line);
+    border-radius: var(--archive-radius);
+    background: var(--archive-surface);
+    color: var(--archive-muted);
+  }
+
+  .facet-section + .facet-section {
+    margin-top: 34px;
+  }
+
+  .section-heading {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    gap: 16px;
+    margin-bottom: 12px;
+  }
+
+  .section-heading h2 {
+    margin: 0;
+    font-size: 1.22rem;
+  }
+
+  .section-heading p {
+    margin: 4px 0 0;
+    color: var(--archive-muted);
+    font-size: 0.9rem;
+  }
+
+  .section-heading span {
+    color: var(--archive-muted);
+    font-size: 0.84rem;
+    white-space: nowrap;
+  }
+
+  .entity-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+    gap: 10px;
+  }
+
+  .entity-card {
+    display: grid;
+    gap: 6px;
+    min-height: 82px;
+    padding: 13px 14px;
+    border: 1px solid var(--archive-line);
+    border-radius: var(--archive-radius);
+    background: var(--archive-surface);
+    text-decoration: none;
+  }
+
+  .entity-card:hover {
+    border-color: var(--archive-strong);
+  }
+
+  .entity-card strong {
+    line-height: 1.35;
+    overflow-wrap: anywhere;
+  }
+
+  .entity-card span {
+    color: var(--archive-muted);
+    font-size: 0.84rem;
+  }
+</style>

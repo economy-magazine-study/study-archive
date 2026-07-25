@@ -8,6 +8,10 @@ hero:
     - text: 4기 보기
       link: /study-archive/gen-4/
       icon: right-arrow
+    - text: 메타데이터 탐색
+      link: /study-archive/archive/
+      icon: right-arrow
+      variant: secondary
     - text: 작성 가이드
       link: /study-archive/operations/writing-guide/
       variant: secondary
@@ -23,6 +27,7 @@ hero:
 - 주차별 페이지에서 발표자 목록과 순서를 확인합니다.
 - 발표자 문서에서 각자가 정리한 공유 내용을 읽습니다.
 - 문서 하단의 이전/다음 링크로 다음 발표자로 넘어갑니다.
+- [색인](/study-archive/archive/entities/)과 [관계도](/study-archive/archive/graph/)에서 주제와 엔티티 기준으로 다시 탐색합니다.
 
 ## 빠른 작성 흐름
 

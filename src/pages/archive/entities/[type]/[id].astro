@@ -1,0 +1,121 @@
+---
+import ArchiveLayout from '../../../../layouts/ArchiveLayout.astro';
+import {
+  docHref,
+  entityHref,
+  getArchiveIndex,
+  getFacetDetail,
+  withBase,
+  type ArchiveFacetType,
+} from '../../../../lib/archive-index';
+
+export async function getStaticPaths() {
+  const index = await getArchiveIndex();
+  return index.facets.map((facet) => ({
+    params: { type: facet.type, id: facet.id },
+    props: {
+      detail: getFacetDetail(index, facet.type, facet.id),
+    },
+  }));
+}
+
+type Detail = NonNullable<ReturnType<typeof getFacetDetail>>;
+const { detail } = Astro.props as { detail: Detail };
+const { facet, docs, cooccurrences } = detail;
+const backHref = withBase('archive/entities/');
+const topCooccurrences = cooccurrences.slice(0, 40);
+---
+
+<ArchiveLayout
+  title={`${facet.name} 색인`}
+  description={`${facet.name} 항목과 연결된 발표 문서입니다.`}
+  active="entities"
+>
+  <header class="page-header">
+    <div>
+      <p class="eyebrow">{facet.label}</p>
+      <h1 class="page-title">{facet.name}</h1>
+      <p class="page-copy">{facet.description} 기준으로 연결된 발표 문서와 함께 등장한 다른 항목을 모았습니다.</p>
+    </div>
+    <div class="metric-strip">
+      <div class="metric"><strong>{facet.count}</strong><span>문서</span></div>
+      <div class="metric"><strong>{cooccurrences.length}</strong><span>관련 항목</span></div>
+    </div>
+  </header>
+
+  <div class="toolbar">
+    <a class="button-link" href={backHref}>색인으로</a>
+    <a class="button-link primary" href={withBase('archive/graph/')}>관계도에서 보기</a>
+  </div>
+
+  <section>
+    <h2 class="section-title">연결된 문서</h2>
+    <ul class="doc-list">
+      {
+        docs.map((doc) => (
+          <li class="doc-item">
+            <a href={docHref(doc.slug)}>{doc.title}</a>
+            <div class="doc-meta">
+              {[doc.weekLabel, doc.author, doc.date, doc.sourceTitle || doc.publication].filter(Boolean).join(' · ')}
+            </div>
+            {doc.description && <p>{doc.description}</p>}
+          </li>
+        ))
+      }
+    </ul>
+  </section>
+
+  {
+    topCooccurrences.length > 0 && (
+      <section>
+        <h2 class="section-title">함께 등장한 항목</h2>
+        <div class="cooccurrence-list">
+          {topCooccurrences.map(({ facet: item, count }) => (
+            <a class="cooccurrence" href={entityHref(item.type as ArchiveFacetType, item.id)}>
+              <span>{item.name}</span>
+              <small>{item.label} · {count}</small>
+            </a>
+          ))}
+        </div>
+      </section>
+    )
+  }
+</ArchiveLayout>
+
+<style>
+  .cooccurrence-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .cooccurrence {
+    display: inline-grid;
+    gap: 2px;
+    min-width: 140px;
+    padding: 9px 10px;
+    border: 1px solid var(--archive-line);
+    border-radius: var(--archive-radius);
+    background: var(--archive-surface);
+    text-decoration: none;
+  }
+
+  .cooccurrence:hover {
+    border-color: var(--archive-accent);
+  }
+
+  .cooccurrence span {
+    font-weight: 720;
+    overflow-wrap: anywhere;
+  }
+
+  .cooccurrence small {
+    color: var(--archive-muted);
+  }
+
+  .doc-item p {
+    margin: 0;
+    color: var(--archive-muted);
+    line-height: 1.6;
+  }
+</style>
