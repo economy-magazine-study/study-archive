@@ -5,6 +5,9 @@ template: splash
 hero:
   tagline: 기수별, 주차별, 발표자별로 공부한 내용을 찾고 이어서 볼 수 있습니다.
   actions:
+    - text: 5기 보기
+      link: /study-archive/gen-5/
+      icon: right-arrow
     - text: 4기 보기
       link: /study-archive/gen-4/
       icon: right-arrow

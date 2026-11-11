@@ -289,6 +289,14 @@ export default defineConfig({
           ],
         },
         {
+          label: '5기',
+          collapsed: false,
+          items: [
+            { label: '5기 홈', slug: 'gen-5' },
+            { label: '2026 미국 중간선거와 경제', slug: 'gen-5/us-midterms-2026' },
+          ],
+        },
+        {
           label: '4기',
           collapsed: false,
           items: [
