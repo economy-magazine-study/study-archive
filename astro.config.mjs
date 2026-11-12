@@ -294,6 +294,14 @@ export default defineConfig({
           items: [
             { label: '5기 홈', slug: 'gen-5' },
             { label: '2026 미국 중간선거와 경제', slug: 'gen-5/us-midterms-2026' },
+            {
+              label: '2주차 (2026-11-12)',
+              collapsed: true,
+              items: [
+                { label: '2주차 개요', slug: 'gen-5/week-02-2026-11-12' },
+                { label: '조수진', slug: 'gen-5/week-02-2026-11-12/sujin' },
+              ],
+            },
           ],
         },
         {
