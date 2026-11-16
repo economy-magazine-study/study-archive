@@ -294,6 +294,7 @@ export default defineConfig({
           items: [
             { label: '5기 홈', slug: 'gen-5' },
             { label: '2026 미국 중간선거와 경제', slug: 'gen-5/us-midterms-2026' },
+            { label: '반도체 다음은 전력·전력인프라', slug: 'gen-5/power-energy-2026' },
             {
               label: '2주차 (2026-11-12)',
               collapsed: true,
