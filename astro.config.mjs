@@ -302,6 +302,13 @@ export default defineConfig({
                 { label: '조수진', slug: 'gen-5/week-02-2026-11-12/sujin' },
               ],
             },
+            {
+              label: '3주차 (2026-11-19)',
+              collapsed: true,
+              items: [
+                { label: '3주차 개요', slug: 'gen-5/week-03-2026-11-19' },
+              ],
+            },
           ],
         },
         {
